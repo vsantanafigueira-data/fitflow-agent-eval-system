@@ -15,14 +15,22 @@ export interface ConversationResult {
 
 /**
  * Executa uma conversa simulada com o agente usando o system prompt fornecido.
+ * @param clientId - Identificador do cliente (ex.: nome da persona)
+ * @param systemPrompt - System prompt do agente vendedor
+ * @param initialUserMessage - Mensagem/prompt inicial do cliente (opcional)
  */
 export async function simulateConversation(
   clientId: string,
-  systemPrompt: string
+  systemPrompt: string,
+  initialUserMessage?: string
 ): Promise<ConversationResult> {
   // TODO: integrar com o agente (ex.: AI SDK) e simular troca de mensagens
+  const messages: Message[] = [];
+  if (initialUserMessage) {
+    messages.push({ role: "user", content: initialUserMessage });
+  }
   return {
     clientId,
-    messages: [],
+    messages,
   };
 }
