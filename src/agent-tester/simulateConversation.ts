@@ -25,7 +25,9 @@ export async function simulateConversation(
   initialUserMessage?: string
 ): Promise<ConversationResult> {
   // TODO: integrar com o agente (ex.: AI SDK) e simular troca de mensagens
-  const messages: Message[] = [];
+  const messages: Message[] = [
+    { role: "system", content: systemPrompt },
+  ];
   if (initialUserMessage) {
     messages.push({ role: "user", content: initialUserMessage });
   }
