@@ -1,8 +1,8 @@
 {
   "simulations": [
     {
-      "clientName": "Luana Silva",
-      "description": "Lead altamente interessado",
+      "clientName": "Ana",
+      "description": "Lead altamente interessado, já reconhece que tem um problema e quer avançar rapidamente.",
       "conversation": {
         "conversation": [
           {
@@ -11,47 +11,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Prazer em conhecer você! O que você gostaria de saber sobre o FitFlow? Quer saber mais sobre como funciona, os planos, os preços, ou algo específico?"
+            "message": "Oi! Tudo bem? 😊 Pode me dizer seu nome? Assim, consigo te ajudar melhor! O que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Não sei muito sobre o FitFlow, é uma plataforma ou serviço que você está oferecendo? Pode me contar mais sobre o que ele faz e como pode me ajudar a resolver o problema que estou enfrentando. Estou ansioso para saber mais."
+            "message": "Oi! Meu nome é [seu nome]. Gostaria de saber mais sobre os serviços que vocês oferecem e os preços. Além disso, como posso contratar?"
           },
           {
             "role": "seller",
-            "message": "O FitFlow é uma plataforma online que ajuda a pessoas a melhorar a forma física e a saúde em geral. É uma ferramenta que utiliza inteligência artificial para criar um plano personalizado de treino e nutrição para cada usuário.\n\nVocê faz um quiz de 5 minutos sobre seus objetivos, rotina, nível de condicionamento e restrições alimentares. A partir disso, a IA monta um plano de treino semanal + plano alimentar completo. Os treinos podem ser feitos em casa (sem equipamento) ou na academia"
+            "message": "Prazer, [seu nome]! Vamos lá, te explico tudo.\n\nA FitFlow oferece um plano de treino e nutrição personalizada, montado por uma inteligência artificial. Aqui estão os principais serviços:\n\n✅ Plano de treino (casa ou academia)  \n✅ Plano alimentar com lista de compras  \n✅ Reajuste automático a cada 2 semanas  \n✅ Chat com nutricionista (seg-sex, 8h-18h)  \n✅ +500 vídeos de exercícios  \n✅ Acompanhamento de progresso  \n✅ Comunidade exclusiva no Telegram  \n✅ Acesso pelo app (iOS e"
           },
           {
             "role": "client",
-            "message": "Entendo melhor agora! Um plano personalizado de treino e nutrição, projetado para atender às necessidades específicas de cada pessoa. Isso soa muito interessante!\n\nE como a IA sabe criar um plano tão preciso? O quiz que você mencionou deve ser bem detalhado, né? Qual é a base científica por trás da criação do plano de treino e nutrição? Existem equipes de especialistas em nutrição e treinamento físico que contribuem para a criação do plano?\n\nAlém dis"
+            "message": "Android)\n\nQuanto aos preços, temos algumas opções de assinatura:\n\n1. **Mensal**: [inserir valor]\n2. **Trimestral**: [inserir valor] (economia em relação ao mensal)\n3. **Anual**: [inserir valor] (melhor custo-benefício)\n\nPara contratar, você pode acessar nosso site e seguir as instruções para se inscrever. Se precisar de ajuda, é só me avisar! Alguma dessas opções te interessou? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, o quiz é bem detalhado e é baseado em uma pesquisa científica robusta. A equipe de desenvolvedores do FitFlow trabalhou em estreita colaboração com especialistas em nutrição e treinamento físico para criar um algoritmo que possa criar planos personalizados precisos e eficazes.\n\nA base científica por trás da criação do plano de treino e nutrição é baseada em princípios de fisiologia humana, bioquímica e epidemiologia. A equipe de especialistas"
+            "message": "Desculpa, [seu nome], acabei me confundindo. Aqui estão os preços certinhos:\n\n### Plano Trimestral (3 meses)\n- Cartão de crédito: 3x de R$79,90 (sem juros) = R$239,70\n- PIX: R$215,73 à vista (10% de desconto)\n\n### Plano Anual (12 meses) — Mais Popular\n- Cartão de crédito: 12x de R$49,90 (sem juros) = R$598,80\n- PIX: R$478,90 à"
           },
           {
             "role": "client",
-            "message": "Entendi! Isso é muito impressionante! A colaboração com especialistas em nutrição e treinamento físico foi fundamental para garantir que o algoritmo seja robusto e eficaz.\n\nEu estou impressionado com o fato de que o FitFlow não é apenas uma ferramenta de treino, mas também uma ferramenta de nutrição. Isso adiciona um niveau de complexidade extra, pois a nutrição é uma área muito específica e delicada.\n\nEu gostaria de saber mais sobre os resultados que as pessoas que us"
+            "message": "vista (20% de desconto)\n\nPara contratar, você também pode visitar nosso site. Basta escolher o plano, preencher seus dados e seguir as instruções para o pagamento. \n\nSe tiver mais alguma dúvida ou se precisar de ajuda com a contratação, não hesite em perguntar! 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, a nutrição é uma área muito específica e delicada, e é por isso que a equipe do FitFlow trabalhou arduamente para criar um plano de nutrição que seja seguro, eficaz e personalizado para cada usuário.\n\nVamos falar sobre os resultados! Muitas pessoas que usaram o FitFlow relataram mudanças significativas em seu corpo e na sua saúde. Alguns exemplos incluem:\n\n* Perda de peso significativa em apenas 4-6 semanas\n* Aumento da força e da resistência muscular"
+            "message": "Desculpa, [seu nome], acabou saindo cortado. Aqui estão os planos novamente:\n\n### Plano Trimestral (3 meses)\n- Cartão de crédito: 3x de R$79,90 (sem juros) = R$239,70\n- PIX: R$215,73 à vista (10% de desconto)\n\n### Plano Anual (12 meses) — Mais Popular\n- Cartão de crédito: 12x de R$49,90 (sem juros) = R$598,80\n- PIX: R$478,90 à vista"
           },
           {
             "role": "client",
-            "message": "Esses resultados são muito impressionantes! A perda de peso em 4-6 semanas é um resultado rapidamente alcançável e motivador para as pessoas que estão procurando melhorar sua saúde e forma física.\n\nE o aumento da força e da resistência muscular é um resultado incrível, especialmente considerando que o treino pode ser feito em casa sem equipamento. Isso mostra que o FitFlow é eficaz em ajudar as pessoas a alcançar seus objetivos de treino, mesmo com limitações de tempo e recursos.\n\nEu gostaria de"
+            "message": "(20% de desconto)\n\nPara contratar, você pode acessar nosso site, escolher o plano que preferir e seguir as instruções para o pagamento. Se precisar de ajuda durante o processo, estou aqui para ajudar! Algum desses planos te interessou mais? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, é incrível ver como as pessoas podem alcançar seus objetivos de treino com o FitFlow, mesmo com limitações de tempo e recursos.\n\nE sim, a perda de peso em 4-6 semanas é um resultado muito motivador e alcançável. Além disso, o FitFlow também ajuda as pessoas a desenvolver uma rotina de treino saudável e sustentável, o que é fundamental para manter a saúde e a forma física a longo prazo.\n\nVamos falar sobre os preços e os planos"
+            "message": "Se precisar de ajuda durante o processo, estou aqui pra ajudar! Algum desses planos te interessou mais? 😊"
           },
           {
             "role": "client",
-            "message": "Sim, isso é muito importante! Além de ajudar as pessoas a alcançar seus objetivos de treino, o FitFlow também ajuda a desenvolver uma rotina de treino saudável e sustentável, que é fundamental para manter a saúde e a forma física a longo prazo.\n\nE sim, os preços e os planos são importantes para entender como o FitFlow pode se encaixar na minha vida e orçamento.\n\nPode me dizer mais sobre os planos de assinatura do FitFlow? Quais são"
+            "message": "Ótimo! Estou aqui para ajudar. Se você tiver interesse em um dos planos ou quiser mais informações sobre algum deles, é só me avisar! 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, os planos de assinatura do FitFlow são projetados para ser acessíveis e flexíveis, para que você possa escolher o que melhor se adapta às suas necessidades e orçamento.\n\nOs planos de assinatura do FitFlow incluem:\n\n* Plano Trimestral (3 meses): R$239,70 (pagamento de 3x de R$79,90 sem juros)\n* Plano Anual (12 meses): R$598,80 (pagamento de 12x de R$49,90 sem juros"
+            "message": "Se você tiver interesse em um dos planos ou quiser mais informações sobre algum deles, é só me avisar! 😊"
           }
         ],
         "metadata": {
@@ -63,8 +63,8 @@
       "success": true
     },
     {
-      "clientName": "Pedro Henrique",
-      "description": "Lead curioso",
+      "clientName": "Carlos",
+      "description": "Lead curioso, percebe valor na solução e quer entender melhor como funciona.",
       "conversation": {
         "conversation": [
           {
@@ -73,47 +73,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Prazer em te conhecer. Eu sou a Mel, assistente de vendas da FitFlow. O que você gostaria de saber mais sobre o FitFlow? Estamos falando de um plano de treino e nutrição personalizado por inteligência artificial. Você já tem alguma experiência em treinos ou está começando?"
+            "message": "Oi! Tudo bem? 😊 Qual é o seu nome? \n\nE me conta, o que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Olá Mel! Prazer em conhecê-la também. Estou interessado em sabermas mais sobre o FitFlow, pois sou um entusiasta de atividades físicas e meus objetivos de emagrecimento e condicionamento físico são sempre um desafio.\n\nSim, eu já tenho alguma experiência em treinos, principalmente em corrida e musculação. Mas estou procurando por um plano mais personalizado e inteligente que possa me ajudar a alcançar meus objetivos de forma mais eficaz.\n\nPoder"
+            "message": "Oi! Estou bem, obrigado! Meu nome é Assistant. 😊 Gostaria de saber mais sobre a parte alimentar da FitFlow e quais são os benefícios do plano. Você pode me contar?"
           },
           {
             "role": "seller",
-            "message": "*Interessante!* Você parece ter uma boa base em treinos, então um plano personalizado pode ser o que você precisa para superar os desafios. O FitFlow é projetado para adaptar-se às suas necessidades e objetivos, considerando seu nível de condicionamento e restrições alimentares (se você tiver alguma).\n\nVamos falar sobre como funciona o plano. Você faz um quiz de 5 minutos sobre seus objetivos, rotina, nível de condicionamento e restrições alimentares. A partir disso, a"
+            "message": "Claro, Assistant! 😄 \n\nA parte alimentar da FitFlow é bem bacana. No quiz inicial, você informa suas restrições (como lactose, glúten, vegetariano, vegano, etc.) e a IA monta um plano alimentar personalizado pra você. \n\nOs benefícios incluem:\n\n✅ Cardápios adaptados aos seus objetivos e preferências.\n✅ Lista de compras semanal pra facilitar sua vida.\n✅ Chat com nutricionista de segunda a sexta, pra tirar dúvidas.\n\nAssim, você tem apoio contínuo na sua jornada! Alguma dúvida específica sobre isso?"
           },
           {
             "role": "client",
-            "message": "Isso soa interessante! Um quiz de 5 minutos é um compromisso razoável, sabendo que vou ter um plano personalizado no final.\n\nPosso perguntar uma coisa sobre o quiz, Mel? Quais tipos de informações eu estarei fornecendo com o quiz? Você vai precisar saber sobre meus hábitos alimentares atuais, meu nível de atividade física, objetivos específicos (perder peso, ganhar massa muscular, aumentar a resistência cardiovascular, por exemplo) e se há algum problema de saúde ou"
+            "message": "Que legal! Isso parece bem útil. 🙌 Tem como saber mais sobre os tipos de cardápios que vocês oferecem? E também, como funciona o suporte do nutricionista?"
           },
           {
             "role": "seller",
-            "message": "Você está fazendo perguntas importantes! Sim, com o quiz, vamos coletar informações sobre seus hábitos alimentares atuais, nível de atividade física, objetivos específicos e se há algum problema de saúde ou restrição alimentar que precisamos considerar.\n\nVamos detalhar um pouco mais: você vai informar sobre:\n\n* Hábitos alimentares: o que você come habitualmente, quais são as suas preferências e restrições alimentares (glúten, lactose, vegetariano, vegano, etc.)\n* N"
+            "message": "Sim, é super útil mesmo! 🙌 \n\nSobre os cardápios, eles variam conforme seus objetivos, como emagrecimento, ganho de massa ou manutenção. A IA cria opções variadas pra deixar a alimentação interessante e saborosa, respeitando suas restrições.\n\nQuanto ao suporte do nutricionista, ele funciona assim:\n\n✅ Chat disponível de segunda a sexta, das 8h às 18h.\n✅ Resposta média em até 30 minutos.\n✅ Você pode tirar dúvidas sobre o plano alimentar, sugestões de receitas e tudo mais que precisar.\n\nFicou mais alguma dúvida sobre isso?"
           },
           {
             "role": "client",
-            "message": "Entendi melhor agora! É importante coletar informações precisas para que o plano seja personalizado da melhor forma possível.\n\nEi, uma pergunta mais: após o quiz, o que mais vocês vão fazer para criar o meu plano? Vai haver algum tipo de ajuste ou revisão do plano comigo mesmo? Quais são as oportunidades de comunicação com os profissionais da FitFlow para garantir que o plano esteja atendendo às minhas necessidades e objetivos?\n\nE como posso obter os benefícios do plano, como"
+            "message": "Parece ótimo! 😄 E tem alguma orientação sobre exercícios físicos ou foco apenas na parte alimentar? Além disso, como são feitas as adaptações nos cardápios ao longo do tempo?"
           },
           {
             "role": "seller",
-            "message": "Excelente pergunta! Após o quiz, nossa inteligência artificial vai processar as informações e criar um plano personalizado para você. No entanto, sabemos que cada pessoa é única e pode precisar de ajustes para que o plano seja ainda mais eficaz.\n\nPor isso, você terá acesso a um chat com nutricionista disponível de segunda a sexta-feira, das 8h às 18h. Lá, você pode perguntar dúvidas, compartilhar seus progressos e obter orientação personalizada para ajustar o"
+            "message": "Sim, a FitFlow foca tanto na parte alimentar quanto nos exercícios físicos! 💪\n\nOs planos de treino são personalizados conforme seu nível de condicionamento e objetivos. Você pode treinar em casa ou na academia, e tem acesso a mais de 500 vídeos de execução correta pra te ajudar.\n\nQuanto às adaptações nos cardápios, a IA analisa seu progresso a cada duas semanas e faz ajustes conforme necessário. Assim, você sempre tem um plano que se adapta ao seu desenvolvimento.\n\nSe precisar de mais alguma info, é só falar! 😊"
           },
           {
             "role": "client",
-            "message": "Entendi que posso ter acesso a uma equipe de nutricionista que pode me ajudar a ajustar o plano e superar qualquer obstáculo. Isso é uma garantia de que o plano esteja sendo personalizado para mim e que eu tenha todas as ferramentas necessárias para alcançar meus objetivos.\n\nE quais são os resultados que eu posso esperar com o FitFlow? Você pode me dar alguns exemplos de como o plano pode me ajudar a alcançar meus objetivos? Por exemplo, perda de peso"
+            "message": "Isso é muito bom! A combinação de alimentação e exercício realmente faz a diferença. 🔄 E como funcionam os pagamentos? Tem algum tipo de período de teste ou garantia?"
           },
           {
             "role": "seller",
-            "message": "Com o FitFlow, você pode esperar resultados significativos em relação à sua forma física e saúde. Aqui estão alguns exemplos de como o plano pode te ajudar a alcançar seus objetivos:\n\n* **Perda de peso**: com um plano de treino e nutrição personalizado, você pode perder peso de forma segura e sustentável. Nossa equipe de nutricionista vai ajudar a ajustar o plano para garantir que você esteja consumindo a quantidade certa de calorias para alcançar seus objetivos.\n* **A"
+            "message": "Exatamente! A combinação faz toda a diferença! 🔄\n\nSobre os pagamentos, temos duas opções de planos:\n\n1. **Plano Trimestral:** \n   - Cartão: 3x de R$79,90 (sem juros) = R$239,70\n   - PIX: R$215,73 à vista (10% de desconto)\n\n2. **Plano Anual (mais popular):**\n   - Cartão: 12x de R$49,90 (sem juros) = R$598,80\n   - PIX: R$478,90 à"
           },
           {
             "role": "client",
-            "message": "Isso é incrível! Achei muito interessante as possibilidades de resultado com o FitFlow. Acreditando na possibilidade de alcançar meus objetivos, quero saber mais sobre o custo do programa. Qual é o investimento necessário para ter acesso ao FitFlow e ao plano personalizado?\n\nE também gostaria de saber se há alguma garantia ou garantia de satisfação com o programa. É importante para mim saber se há uma opção de retorno do dinheiro se não estiver satisfeito com os resultados no período de tempo est"
+            "message": "vista (20% de desconto).\n\nE sim, temos um período de garantia! Você pode testar a FitFlow por 7 dias e, se não se sentir satisfeito, pode solicitar o reembolso completo. Assim, você pode experimentar sem compromisso. \n\nSe tiver mais perguntas ou precisar de mais detalhes, estou aqui! 😊"
           },
           {
             "role": "seller",
-            "message": "Excelente pergunta! O custo do FitFlow é muito acessível e competitivo no mercado. Nós oferecemos dois planos de pagamento: um trimestral e um anual.\n\n**Plano Trimestral**: R$ 239,70 (3x de R$ 79,90 sem juros) - é uma boa opção para aqueles que querem experimentar o FitFlow por um período de tempo mais curto.\n\n**Plano Anual**: R$ 598,80 (12x de R$ 49,90 sem juros) -"
+            "message": "Oi! Tudo bem? 😊 Qual é o seu nome? \n\nE me conta, o que você gostaria de saber sobre a FitFlow?"
           }
         ],
         "metadata": {
@@ -125,8 +125,8 @@
       "success": true
     },
     {
-      "clientName": "Ana Luiza",
-      "description": "Lead com objeção de preço",
+      "clientName": "Fernanda",
+      "description": "Lead com objeção de preço, demonstra interesse, mas acha o valor alto.",
       "conversation": {
         "conversation": [
           {
@@ -135,47 +135,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Prazer em te conhecer, [nome do lead]. O que você gostaria de saber sobre o FitFlow? Estamos falando de um treino personalizado por inteligência artificial, com plano alimentar e acompanhamento de nutricionista. Você já treinou antes ou é iniciante?"
+            "message": "Oi! Tudo bem? 😊 Qual o seu nome? E o que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Oi, prazer em conhecê-lo também! Eu estava procurando algo assim há tempo e estava um pouco preocupado com o preço. Eu sou iniciante, não tenho muita experiência em treinamento, então um plano personalizado por inteligência artificial pode ser justo aquilo que eu preciso. Pela sua descrição, parece que o FitFlow oferece tudo de que eu preciso. O pagamento parcelado é possível? E se tivesse um pacote desconto para clientes novos, isso seria incrível. Posso saber quais foram os casos de"
+            "message": "Oi! Estou bem, obrigada! Meu nome é [seu nome]. Eu gostaria de saber mais sobre os serviços que vocês oferecem na FitFlow e se há opções de desconto."
           },
           {
             "role": "seller",
-            "message": "Parabéns por ter a mente aberta e procurar soluções personalizadas!\n\nSim, o FitFlow tem opção de pagamento parcelado. Você pode escolher entre o Plano Trimestral ou o Plano Anual. O Plano Trimestral tem 3x de R$79,90 (sem juros), totalizando R$239,70. Já o Plano Anual é mais popular e tem 12x de R$49,90 (sem juros), totalizando R$598,80. Mas, se você pagar à vista"
+            "message": "Que bom que você tá bem, [seu nome]! 😄 \n\nA FitFlow oferece um plano de treino e nutrição personalizada com base em um quiz que você faz. Aqui estão os principais serviços:\n\n- **Plano de treino** (casa ou academia)\n- **Plano alimentar** com lista de compras\n- **Reajuste automático** a cada 2 semanas\n- **Chat com nutricionista** de segunda a sexta\n- **+500 vídeos** de exercícios\n- **Comunidade exclusiva** no Telegram\n- **Acesso pelo app** e site\n\nSobre desconto"
           },
           {
             "role": "client",
-            "message": "Entendi, o pagamento parcelado pode ser uma opção interessante! Eu não teria problema em pagar à vista, mesmo, porque acredito que o valor seja bom em comparação com os benefícios que o FitFlow oferece.\n\nFale por favor sobre os descontos para clientes novos. Quais são as condições para ter acesso a eles e o quanto eu poderia economizar?\n\nE também gostaria de saber, como funciona a garantia de resultado? Se eu não alcançar meus objetivos, como posso reclamar ou pedir"
+            "message": "Legal! Os serviços parecem bem completos! E quanto aos descontos, vocês oferecem alguma promoção ou forma de redução no valor?"
           },
           {
             "role": "seller",
-            "message": "Você está procurando pelas opções mais vantajosas!\n\nSim, o FitFlow oferece descontos para clientes novos. A condição é simples: você compra o plano trimestral ou anual, e caso não esteja satisfeito, você pode pedir um reembolso total nos 7 primeiros dias após a compra. Isso é uma garantia de que você não perdeu tempo ou dinheiro.\n\nJá sobre os descontos, o cupom que você tem acesso no WhatsApp é de 10% de desconto. Com isso, você"
+            "message": "Sim, temos uma condição especial pra você! O cupom \"10off\" já tá aplicado nos nossos links. Assim, você consegue um desconto em relação ao preço do site. \n\nOs planos são:\n\n**Trimestral (3 meses)**: \n- 3x de R$79,90 (sem juros) ou R$215,73 à vista no PIX.\n\n**Anual (12 meses)** — o mais popular:\n- 12x de R$49,90 (sem juros) ou R$478,90 à vista no PIX.\n\nEsses valores já estão com o"
           },
           {
             "role": "client",
-            "message": "Que ótimo! Eu achei um pouco complicado fazer uma compra sem garantia de resultado, mas isso parece muito mais atraente agora.\n\nAgora que entendi melhor o Plano e as opções de pagamento, gostaria de saber mais sobre a garantia de resultado. Eles têm metas pré-definidas, ou é mais flexível? E como é o acompanhamento durante o período?\n\nE, é normal, mas você também tem algum caso de sucesso que eu possa saber sobre o que aconteceu com outros clientes que utilizaram o FitFlow? Qu"
+            "message": "Ótimo saber disso! O desconto faz diferença. O plano anual parece ser o mais vantajoso. Vou considerar e, se decidir, já uso o cupom \"10off\". Obrigada pela ajuda! Se eu tiver mais dúvidas, posso entrar em contato?"
           },
           {
             "role": "seller",
-            "message": "Sim, a garantia de resultado é uma das nossas maiores preocupações!\n\nA garantia de resultado é baseada nas metas individuais de cada cliente. Nós não temos metas pré-definidas, mas sim objetivos personalizados que são definidos com base nas necessidades e desejos de cada um. Além disso, o plano de treino e nutrição é adaptado ao longo do tempo para garantir que você esteja alcançando seus objetivos.\n\nO acompanhamento durante o período é feito por meio do chat com nut"
+            "message": "Com certeza, [seu nome]! O plano anual é realmente uma boa escolha. E fica à vontade pra voltar quando quiser! Tô aqui pra ajudar com qualquer dúvida. 😊\n\nBoa sorte na sua decisão e, qualquer coisa, é só chamar!"
           },
           {
             "role": "client",
-            "message": "Entendi melhor agora! Sim, é muito melhor ter metas personalizadas e um plano adaptado ao longo do tempo. Isso aumenta as chances de sucesso e preenche as necessidades individuais de cada cliente.\n\nO acesso ao chat com nutricionista ao longo do período é uma excelente opção, pois permite que eu tenha apoio constante e possa fazer perguntas ou solicitar ajustes no plano de treino e nutrição se necessário.\n\nE fale por favor sobre os casos de sucesso do FitFlow. Você tem alguns exemplos"
+            "message": "Obrigada! 😊 Vou pensar com calma e, se precisar, entro em contato. Até mais!"
           },
           {
             "role": "seller",
-            "message": "Sim, a nossa equipe de nutricionistas e treinadores trabalha em estreita colaboração para garantir que cada cliente alcance seus objetivos.\n\nInfelizmente, não tenho exemplos concretos de clientes que eu possa compartilhar, mas posso dizer que temos mais de 15.000 clientes ativos em todo o Brasil, e a maioria deles relata mudanças significativas em sua saúde e condicionamento físico.\n\nAlém disso, nossa plataforma tem uma avaliação de 4,8 em todas"
+            "message": "De nada, [seu nome]! Fica à vontade pra voltar quando quiser. Até mais e boa reflexão! 💪✨"
           },
           {
             "role": "client",
-            "message": "Entendi! Embora não tenha exemplos específicos, a taxa de clientes ativos e a avaliação da plataforma são ótimos indicadores de que o FitFlow está fazendo o trabalho certo.\n\nEssa informação me dá a confiança de que estou trabalhando com uma empresa séria e comprometida com a qualidade. Além disso, a transparência em relação à quantidade de clientes ativos e à avaliação da plataforma é algo muito apreciado.\n\nAgora estou quase pronto para tomar a decisão. Só quer"
+            "message": "Obrigada! Até mais! Vou pensando e, se precisar, volto sim. Tenha um bom dia! 🌟"
           },
           {
             "role": "seller",
-            "message": "Sim, a transparência é fundamental para construir confiança e credibilidade.\n\nEstou aqui para ajudá-lo a tomar a decisão certa. Só queria lembrar que, se tiver alguma dúvida adicional ou precisar de mais informações, estou à disposição.\n\nSe você estiver pronto para começar, posso ajudá-lo a realizar a compra e criar seu plano personalizado. Estamos ansiosos para ajudá-lo a alcançar seus objetivos de saúde e condicionamento físico.\n\nQual é o próximo pass"
+            "message": "Obrigada, [seu nome]! Tenha um ótimo dia também! 🌟 Até mais!"
           }
         ],
         "metadata": {
@@ -187,8 +187,8 @@
       "success": true
     },
     {
-      "clientName": "João Vitor",
-      "description": "Lead desconfiado ou cético",
+      "clientName": "Júlio",
+      "description": "Lead desconfiado ou cético, questiona resultados e pede provas sociais.",
       "conversation": {
         "conversation": [
           {
@@ -197,47 +197,47 @@
           },
           {
             "role": "seller",
-            "message": "Oi! Prazer em conhecer você! Qual é o seu objetivo com o treino? Você está procurando perder peso, ganhar massa muscular, melhorar a forma física ou outra coisa? 🤔"
+            "message": "Oi! Tudo bem? 😊 Qual é o seu nome? E o que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Prazer em conhecer você também!\n\nGostaria de saber mais sobre o seu objetivo com o treino, pois isso pode ajudar a direcionar as recomendações e soluções que posso oferecer. Além disso, podemos discutir sobre como o meu produto pode ajudar a alcançar seus objetivos.\n\nNo entanto, antes de mais nada, permita-me ser transparente: não posso prometer nada que não seja comprovado cientificamente. Meus produtos são baseados em tecnologia e ciência, e posso"
+            "message": "Oi! Meu nome é [Seu Nome]. Estou curioso sobre como funciona o FitFlow e se há depoimentos de alunos que mostrem resultados. Você pode compartilhar algumas experiências?"
           },
           {
             "role": "seller",
-            "message": "Entendi melhor agora! Você está procurando entender melhor sobre o objetivo do lead antes de apresentar o produto, certo?\n\nBem, vou ser transparente também! Eu estou procurando melhorar a minha forma física e reduzir o estresse. Estou há alguns anos sem treinar regularmente e estou sentindo que precisa de um impulso para voltar a cuidar do meu corpo.\n\nE sim, estou interessado em saber mais sobre como o seu produto pode me ajudar a alcançar esses objetivos! Posso perguntar:"
+            "message": "Oi, [Seu Nome]! Show de bola! \n\nA FitFlow é uma plataforma que cria treinos e planos alimentares personalizados com base nos seus objetivos e rotina. Você faz um quiz rapidinho e, a partir daí, a IA monta tudo pra você. \n\nSobre os depoimentos, muitos alunos relatam resultados positivos em questão de 4 a 8 semanas, dependendo da consistência. Temos mais de 15.000 alunos ativos e uma avaliação de 4.8 nas lojas. \n\nSe precisar de mais detalhes ou quiser saber sobre planos e preços, é só me avisar!"
           },
           {
             "role": "client",
-            "message": "Excelente abordagem, ser transparente é fundamental para estabelecer uma conexão positiva com o espectador (ou leitor).\n\nEntendi melhor o seu objetivo: melhorar a sua forma física e reduzir o estresse. Isso é um ótimo começo!\n\nSobre o meu produto, eu possuo uma tecnologia que ajudam a otimizar a atividade física e a reduzir o estresse. Posso oferecer uma avaliação pessoalizada, baseada nos seus objetivos e preferências, para entender melhor qu"
+            "message": "Isso parece ótimo! É bom saber que a FitFlow se adapta às necessidades individuais. Os depoimentos e a alta avaliação mostram que tem dado certo para muita gente. Você pode compartilhar alguns exemplos de depoimentos ou histórias de sucesso? Isso ajudaria a ter uma ideia melhor dos resultados que eu poderia esperar!"
           },
           {
             "role": "seller",
-            "message": "Interessante! Sua tecnologia parece ser bem direcionada para o que estou procurando.\n\nSim, uma avaliação pessoalizada seria incrível! Estou ansioso para saber como posso melhorar minha forma física e reduzir o estresse com a sua ajuda.\n\nPode me dizer mais sobre como isso funciona? Qual é o processo de avaliação e como é que a sua tecnologia me ajudará a alcançar meus objetivos?"
+            "message": "Claro, [Seu Nome]! Embora eu não tenha acesso a depoimentos específicos, posso te dizer que muitos alunos compartilham histórias de transformação, como perda de peso, ganho de massa muscular e melhorias na disposição e saúde em geral.\n\nAlunos que começaram do zero conseguiram criar uma rotina consistente e notaram mudanças não só no corpo, mas na autoestima e bem-estar. Além disso, a comunidade no Telegram é um ótimo lugar pra ver essas trocas de experiências e motivação.\n\nSe você quiser, posso te contar sobre os planos e preços pra você começar a sua jornada! O que acha?"
           },
           {
             "role": "client",
-            "message": "Fico feliz em saber que você está interessado no meu produto!\n\nA avaliação pessoalizada é um processo simples e rápido. Primeiramente, vamos conversar um pouco sobre seus objetivos e preferências. Isso ajudará a entender melhor como vamos trabalhar juntos.\n\nEm seguida, vamos realizar uma análise de saúde e forma física, que inclui alguns questionários e avaliações online. Isso ajudará a entender melhor seu estado atual e identificar as áreas onde podemos melhorar.\n\nUma vez que tenhamos essa informação, vamos criar um"
+            "message": "Isso é muito legal! Ver esse tipo de transformação e o apoio da comunidade com certeza faz a diferença. Gostaria de saber mais sobre os planos e preços para entender como começar. Pode me dar mais informações? 😊"
           },
           {
             "role": "seller",
-            "message": "Interessante! O processo parece ser bem estruturado e claro.\n\nSim, estou disposto a compartilhar meus objetivos e preferências. Estou ansioso para entender melhor como posso melhorar minha forma física e reduzir o estresse.\n\nE o que é que eu preciso fazer para realizar a análise de saúde e forma física? Preciso fazer algum teste físico ou é tudo online?\n\nE o que é que eu posso esperar em termos de resultado após a análise e a criação do plano de treino"
+            "message": "Claro, [Seu Nome]! Vamos lá! \n\n### Planos e Preços:\n\n**Plano Trimestral (3 meses):**\n- Cartão de crédito: 3x de R$79,90 (sem juros) = R$239,70\n- PIX: R$215,73 à vista (10% de desconto)\n- [Checkout Trimestral](https://fitflow.com.br/checkout/trimestral?cupom=10off)\n\n**Plano Anual (12 meses) — Mais Popular:**\n- Cartão de crédito: 12x de R$49"
           },
           {
             "role": "client",
-            "message": "Muito bem, vamos prosseguir!\n\nA análise de saúde e forma física é completamente online. Você não precisa fazer nenhum teste físico em pessoa. Você pode realizar os questionários e avaliações em nossa plataforma online, em qualquer lugar e a qualquer hora.\n\nAlém disso, vamos fornecer todos os materiais e ferramentas necessárias para que você possa realizar a análise de forma confortável e eficiente.\n\nApós a análise, vamos criar um plano de treino personalizado, que inclui:\n\n- Um treino de for"
+            "message": "Parece que os planos têm ótimas opções! O desconto para pagamento à vista é bem atrativo. A durabilidade do plano anual também é interessante, especialmente se é o mais popular. \n\nPosso perguntar se há algum tipo de garantia ou possibilidade de experimentar antes de me comprometer com um plano longo? E como funciona o suporte durante os treinos e a dieta? 😊"
           },
           {
             "role": "seller",
-            "message": "Entendi! A análise online parece ser uma opção muito conveniente e confortável.\n\nE o plano de treino personalizado parece ser bem completo. Estou interessado em saber mais sobre o treino de força. Eu sou um iniciante em treinos de força, então posso perguntar: o treino de força inclui movimentos e exercícios adequados para iniciantes?\n\nAlém disso, você mencionou que o plano de treino inclui alimentação e suplementação. Eu sou vegetariano, então é importante que o"
+            "message": "Ótimas perguntas, [Seu Nome]! \n\n**Garantia:** Temos uma garantia de 7 dias. Se você não curtir, pode pedir reembolso total, sem precisar justificar. Assim, dá pra testar sem risco!\n\n**Suporte:** Você tem acesso a um chat com um nutricionista de segunda a sexta, das 8h às 18h. O tempo médio de resposta é de cerca de 30 minutos. Isso é ótimo pra tirar dúvidas sobre treinos e alimentação.\n\nSe precisar de mais alguma coisa ou já quiser começar, é só me avisar! 😉"
           },
           {
             "role": "client",
-            "message": "Fico feliz em saber que você está se sentindo confortável com o processo.\n\nSim, o treino de força que oferecemos é completamente adaptável para iniciantes. Nossos coaches treinados irão criar um plano de treino que seja seguro e eficaz para você, considerando seu nível de experiência e habilidades.\n\nAlém disso, vamos fornecer você com uma sequência de exercícios e movimentos progressivos, para que você possa aumentar gradualmente a intensidade e a complexidade de acordo com sua evolução"
+            "message": "Esse suporte e a garantia de reembolso são fatores que realmente fazem a diferença e trazem mais confiança para quem está começando. Quero pensar um pouco mais, mas estou bastante interessado! \n\nVocê pode me contar sobre como funciona o quiz inicial para personalizar o plano? O que exatamente ele inclui? 😊"
           },
           {
             "role": "seller",
-            "message": "Muito bem! Estou satisfeito em saber que o treino de força é adaptável para iniciantes e que os coaches treinados irão criar um plano de treino seguro e eficaz para mim.\n\nE o que é que eu posso esperar em termos de alimentação e suplementação? Você mencionou que o plano de treino inclui alimentação, mas não me disse mais sobre isso. Posso perguntar: o plano de alimentação é personalizado para vegetarianos?\n\nE o que é que eu posso esperar em"
+            "message": "Claro, [Seu Nome]! O quiz inicial é bem tranquilo e leva cerca de 5 minutinhos. \n\n**O que ele inclui:**\n1. **Objetivos:** Você diz se quer emagrecer, ganhar massa muscular, melhorar o condicionamento, etc.\n2. **Rotina:** Informações sobre sua disponibilidade para treinar e quantas vezes por semana você pretende se exercitar.\n3. **Nível de condicionamento:** Se você já treina ou é iniciante.\n4. **Restrições alimentares:** Se tem alguma dieta específica, como vegetarianismo, intolerâncias"
           }
         ],
         "metadata": {
@@ -249,8 +249,8 @@
       "success": true
     },
     {
-      "clientName": "Giovana Santos",
-      "description": "Lead cliente atual",
+      "clientName": "Mariana",
+      "description": "Lead cliente atual, entra em contato para tirar dúvidas sobre uso.",
       "conversation": {
         "conversation": [
           {
@@ -259,47 +259,47 @@
           },
           {
             "role": "seller",
-            "message": "Oi! Prazer em conhecê-lo! Qual é o seu nome, por curiosidade? E o que o levou a procurar mais informações sobre a FitFlow? 🏋️"
+            "message": "Oi! Tudo certo? 😊 Me conta, qual é o seu nome? E o que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Prazer em conhecê-la também! Meu nome é Flow, mas posso ser qualquer coisa para ajudar. Não é exatamente eu que procurou mais informações sobre a FitFlow, mas sim você, que está procurando renovar o seu plano, certo? Além disso, gostaria de saber mais sobre suas necessidades para oferecer uma solução personalizada. Qual é o seu objetivo ao renovar o seu plano? Você tem alguma expectativa específica?"
+            "message": "Oi! Tudo certo, obrigada por perguntar! 😊 Meu nome é [Seu Nome]. Gostaria de entender mais sobre como funciona o plano alimentar da FitFlow e se posso fazer algumas trocas nas refeições. Você pode me ajudar?"
           },
           {
             "role": "seller",
-            "message": "Flow, é um nome legal!\n\nAhah, não, não é isso! Eu sou aqui para ajudar os clientes da FitFlow, não estou procurando renovar o meu plano. Eu sou a Mel, a assistente de vendas da FitFlow.\n\nMas você está no caminho certo! Sim, gostaria de saber mais sobre suas necessidades e objetivos para oferecer uma solução personalizada. O que você está procurando ao fazer um treino e plano de nutrição? Você tem algum objetivo em mente, como perder peso, ganhar massa muscular, melhor"
+            "message": "Claro, [Seu Nome]! O plano alimentar da FitFlow é bem legal. Ele é montado com base em um quiz que você faz, onde pode informar suas restrições alimentares, como lactose, glúten, vegetariano, vegano, etc. \n\nE sim, você pode fazer algumas trocas nas refeições sugeridas! O importante é que o plano se adapte às suas preferências. Tem mais alguma coisa que você gostaria de saber?"
           },
           {
             "role": "client",
-            "message": "Muito bem, Mel! É um prazer conhecer a você também. Eu estava um pouco confuso, mas agora entendi tudo.\n\nBem, sobre minhas necessidades, eu estou procurando renovar o meu plano de treino e nutrição porque estou saindo da minha rotina e quero manter o progresso. Atualmente, estou fazendo um treino de força três vezes por semana e tenho um plano de nutrição equilibrado. No entanto, estou procurando melhorar minha condicionamento"
+            "message": "Que ótimo saber disso! 😊 Eu gostaria de saber quais tipos de trocas são mais recomendadas e se existem algumas orientações específicas para manter o equilíbrio nutricional. Obrigada!"
           },
           {
             "role": "seller",
-            "message": "Entendi melhor agora! Você está procurando manter o progresso e melhorar o seu condicionamento, certo? É ótimo que você esteja comprometido com o seu treino e plano de nutrição.\n\nA FitFlow pode ajudar a você alcançar seus objetivos! Nossa plataforma oferece um plano de treino personalizado, com exercícios e rotinas adaptadas às suas necessidades e objetivos. Além disso, nosso plano de nutrição é projetado para ajudar a você manter um equilíbrio"
+            "message": "Show, [Seu Nome]! Quando for fazer trocas, o ideal é substituir por alimentos que tenham perfis nutricionais semelhantes. Por exemplo:\n\n- **Proteínas**: Se não gosta de frango, pode trocar por peixe ou tofu.\n- **Carboidratos**: Arroz pode ser trocado por quinoa ou batata-doce.\n- **Vegetais**: Varie as cores e tipos pra garantir nutrientes diversos.\n\nSobre o equilíbrio, é bom incluir sempre uma fonte de proteína, carboidratos saudáveis e bastante vegetais na refeição. E, claro, o chat"
           },
           {
             "role": "client",
-            "message": "Exatamente! É ótimo ter uma plataforma que possa adaptar-se às minhas necessidades e objetivos específicos. E que tal se eu tivesse um coach ou um profissional de saúde que pudesse me ajudar a monitorar o meu progresso e ajustar o meu plano de treino e nutrição regularmente?\n\nE sobre o custo, Mel, você pode me dar uma ideia de quanto pode custar renovar meu plano? Eu estou procurando algo que seja conveniente para o meu orçamento, mas que também seja de"
+            "message": "bot também pode ajudar a sugerir opções! Se precisar de ideias específicas de trocas, é só perguntar. Tem algum alimento em mente que você gostaria de trocar? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, é ótimo ter um coach ou profissional de saúde para ajudar a monitorar o seu progresso e ajustar o plano de treino e nutrição regularmente! Nossa plataforma oferece um chat com nutricionista disponível de segunda a sexta-feira, das 8h às 18h, onde você pode tirar dúvidas, receber orientação e ajustar o seu plano conforme necessário.\n\nEm relação ao custo, a FitFlow oferece dois planos: o Trimestral e o Anual. O plano Trimestral"
+            "message": "Exatamente! O chat com o nutricionista tá aí pra isso, é uma mão na roda! Se tiver algum alimento específico que você tá pensando em trocar, me fala que posso te ajudar com sugestões. 😊"
           },
           {
             "role": "client",
-            "message": "Que opção! O chamado de chat com nutricionista é uma ótima ideia. Eu posso imaginar que seria muito útil ter acesso a orientação e orientação de um profissional de saúde quando precisar.\n\nE sim, estou interessado em saber mais sobre os dois planos que você mencionou. Pode me explicar um pouco mais sobre a diferença entre eles e quais são os preços aproximados? E há alguma forma de pagar em parcelas ou em um valor única? E como você poderia se beneficiar"
+            "message": "Perfeito! Eu estou pensando em substituir o frango. Quais seriam boas opções para manter a proteína e o sabor? 😄"
           },
           {
             "role": "seller",
-            "message": "Sim, o chat com nutricionista é uma ferramenta muito útil para ajudar a monitorar o progresso e ajustar o plano de treino e nutrição.\n\nAgora, sobre os planos: o Plano Trimestral é uma opção que você pode pagar em 3x sem juros, com um valor total de R$239,70. Já o Plano Anual é uma opção que você pode pagar em 12x sem juros, com um valor total de R$598,80. Ambos os planos incl"
+            "message": "Boa escolha! Se você quer substituir o frango mantendo a proteína e o sabor, aqui vão algumas opções:\n\n1. **Peixe**: Salmão ou tilápia são ótimas escolhas, cheios de sabor e ômega-3.\n2. **Carne magra**: Patinho ou peito de peru são opções leves e saborosas.\n3. **Tofu ou tempeh**: Super versáteis e absorvem bem os temperos.\n4. **Leguminosas**: Feijão, lentilha ou grão-de-bico, que também são"
           },
           {
             "role": "client",
-            "message": "Entendi melhor agora! A relação de preços é razoável e parece que há uma opção para diferentes níveis de comprometimento e orçamento.\n\nEu estava pensando que talvez o Plano Trimestral fosse uma opção mais adequada para mim, pois não quero comprometer muito dinheiro de uma vez. Além disso, a ideia de pagar em 3x sem juros é muito atraente.\n\nNo entanto, eu gostaria de saber um pouco mais sobre o que está incluído no valor total. Você pode me d"
+            "message": "ricas em proteína e ótimas para saladas ou cozidos. \n\n5. **Ovos**: Uma excelente fonte de proteína que você pode usar de várias maneiras.\n\nEssas opções vão manter o valor nutricional da refeição e ainda variar os sabores. Se precisar de alguma receita específica ou mais dicas, é só avisar! 😊🍽️"
           },
           {
             "role": "seller",
-            "message": "O Plano Trimestral é uma opção muito popular entre os nossos clientes, especialmente aqueles que estão começando ou que não querem comprometer muito dinheiro de uma vez.\n\nAgora, sobre o que está incluído no valor total: o Plano Trimestral inclui:\n\n* Plano de treino personalizado com exercícios e rotinas adaptadas às suas necessidades e objetivos\n* Plano de nutrição equilibrado e saudável, com lista de compras semanal\n* Reajuste automático a cada "
+            "message": "Espero que essas dicas ajudem! Se precisar de mais informações ou tiver outras perguntas, é só chamar. Tô aqui pra isso! 😄"
           }
         ],
         "metadata": {
@@ -311,8 +311,8 @@
       "success": true
     },
     {
-      "clientName": "Mateus Costa",
-      "description": "Lead ocupado ou com pouca atenção",
+      "clientName": "Pedro",
+      "description": "Lead ocupado ou com pouca atenção, responde com mensagens curtas.",
       "conversation": {
         "conversation": [
           {
@@ -321,47 +321,47 @@
           },
           {
             "role": "seller",
-            "message": "Bem-vindo ao FitFlow! 😊 Eu sou a Mel, a sua assistente de vendas. Estou aqui pra te contar mais sobre como podemos ajudar você a alcançar seus objetivos de saúde e bem-estar.\n\nQual é o seu objetivo principal? Você quer perder peso, ganhar massa muscular, melhorar a forma física ou algo mais?"
+            "message": "Oi! Que massa que você se interessou! 😄 Qual é o seu nome? E o que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Muito obrigado por se apresentar, Mel! Eu estou realmente interessado em perder peso e melhorar a minha forma física. Tenho tentado fazer exercícios e mudar a minha dieta há alguns meses, mas ainda preciso de um impulso e uma orientação para conseguir resultados mais significativos.\n\nEu também estou procurando algo que seja fácil de usar e que não me exija muito tempo todos os dias, pois eu tenho uma rotina muito cheia. Pode me explicar um pouco mais sobre o FitFlow e como ele pode me ajud"
+            "message": "Oi! Eu sou o ChatGPT. Estou aqui para ajudar! Sobre a FitFlow, você pode nos contar um pouco mais sobre os treinos em casa? Tem alguma dica ou programa específico que você recomenda?"
           },
           {
             "role": "seller",
-            "message": "É ótimo que você esteja procurando uma solução que se adapte à sua rotina. O FitFlow é uma plataforma online que utiliza inteligência artificial para criar planos de treino e nutrição personalizados para você.\n\nCom o FitFlow, você responde a um quiz de 5 minutos sobre seus objetivos, rotina, nível de condicionamento e restrições alimentares. Em seguida, a IA monta um plano de treino semanal e um plano alimentar completo, com lista de compras semanal. Isso significa que"
+            "message": "Oi, ChatGPT! 😄 Então, na FitFlow, os treinos em casa são super práticos e não precisam de equipamento. A IA monta um plano personalizado baseado no seu nível e objetivos.\n\nRecomendo começar com treinos de corpo livre, como flexões, agachamentos e pranchas. Eles ajudam a construir força e resistência. E a cada duas semanas, o plano é reajustado, então sempre tem novidade! \n\nQuer saber mais sobre como funciona o quiz ou os planos?"
           },
           {
             "role": "client",
-            "message": "Isso soa muito legal! Um plano personalizado baseado em minha situação e objetivos seria incrível. Eu não sei se eu seria capaz de criar um plano por conta própria.\n\nE quanto ao tempo que eu preciso esperar para começar a usar o FitFlow? Você disse que a IA monta um plano, mas quanto tempo leva para isso ocorrer? E como posso pagar pelo serviço? Ele é acessível mesmo para quem não tem uma boa renda? Você tem some informações sobre os valores e planos de pagamento, não?"
+            "message": "Oi! Isso parece ótimo! 😄 A ideia de um plano personalizado e a adaptação constante são incríveis. Como funciona o quiz para definir o nível e os objetivos? E há opções para iniciantes e também para quem já treina?"
           },
           {
             "role": "seller",
-            "message": "Excelente pergunta! Com o FitFlow, você pode começar a usar o plano em minutos. Depois de responder ao quiz, a IA monta o plano e você pode acessá-lo imediatamente.\n\nQuanto ao pagamento, temos dois planos: um trimestral e um anual. O plano trimestral tem um valor de R$239,70 em 3x sem juros, ou R$215,73 à vista com 10% de desconto. O plano anual é o mais popular e tem um valor de R$598,80 em"
+            "message": "Oi! Que bom que você achou legal! 😄 O quiz é bem rápido, leva uns 5 minutinhos. Nele, você responde sobre seus objetivos (perda de peso, ganho de massa, etc.), rotina, nível de condicionamento e qualquer restrição alimentar.\n\nE sim, tem opções tanto pra iniciantes quanto pra quem já treina! A IA adapta o plano de acordo com o seu nível, então não se preocupe, vai ser tranquilo. \n\nSe você quiser, posso falar sobre os planos e preços! O que acha?"
           },
           {
             "role": "client",
-            "message": "Isso soa como um bom valor para o serviço que vocês oferecem. Eu estou curioso em saber mais sobre como funciona a plataforma e como posso acompanhar meu progresso.\n\nE como posso interagir com a comunidade do FitFlow? Você tem algum fórum ou grupos de apoio onde eu posso compartilhar experiências e dicas com outras pessoas que também estão usando a plataforma?\n\nAlém disso, eu gostaria de saber se o FitFlow oferece algum suporte ao cliente. Se tiver alguma dúvida ou problema"
+            "message": "Oi! Adoraria saber mais sobre os planos e preços! Isso pode ajudar bastante a decidir. Além disso, tem algum tipo de suporte ou acompanhamento, como treinos em grupo ou dicas de nutrição?"
           },
           {
             "role": "seller",
-            "message": "Excelente pergunta novamente! Com o FitFlow, você pode acompanhar seu progresso de várias maneiras. Além do plano de treino e nutrição, a plataforma oferece também:\n\n* Uma ferramenta de acompanhamento de progresso, onde você pode registrar suas fotos e medidas para monitorar seu progresso;\n* Um chat com nutricionista disponível de segunda a sexta-feira, das 8h às 18h, para responder a suas dúvidas e fornecer orientação;\n* Uma comunidade exclusiva no Telegram, onde você"
+            "message": "Claro! Aqui estão os planos e preços da FitFlow:\n\n### Plano Trimestral (3 meses)\n- **Cartão de crédito**: 3x de R$79,90 (sem juros) = R$239,70\n- **PIX**: R$215,73 à vista (10% de desconto)\n\n### Plano Anual (12 meses) — Mais Popular\n- **Cartão de crédito**: 12x de R$49,90 (sem juros) = R$598,80\n- **PIX**: R$478,90 à vista ("
           },
           {
             "role": "client",
-            "message": "Isso soa incrível! Uma ferramenta de acompanhamento de progresso, um chat com nutricionista e uma comunidade exclusiva no Telegram serão muito úteis para mim.\n\nEu também gostaria de saber se o FitFlow oferece algum tipo de garantia ou política de cancelamento. Se eu não estiver satisfeito com o serviço, eu gostaria de saber se posso cancelar meu plano sem problemas.\n\nE como posso fazer para começar a usar o FitFlow? Você me pode enviar um link para que eu possa criar minha conta e"
+            "message": "Que legal! Os preços estão bem acessíveis. E quanto ao suporte, vocês oferecem acompanhamento, certo? Tem suporte com dicas de nutrição ou treinos em grupo? Isso seria um diferencial bem bacana!"
           },
           {
             "role": "seller",
-            "message": "Excelente pergunta! Com o FitFlow, oferecemos uma garantia de 7 dias, o que significa que você pode cancelar seu plano e receber um reembolso total se não estiver satisfeito com o serviço. Além disso, nossa política de cancelamento é simples e fácil de entender: você pode cancelar seu plano a qualquer momento e não será cobrado por nenhum mês adicional.\n\nPara começar a usar o FitFlow, basta clicar no link do plano que escolher (trimestral ou anual) e seguir as"
+            "message": "Sim, temos suporte sim! Você pode conversar com um nutricionista pelo chat disponível de segunda a sexta, das 8h às 18h. Assim, pode tirar dúvidas sobre nutrição e receber dicas personalizadas.\n\nQuanto a treinos em grupo, não temos isso diretamente, mas temos uma comunidade exclusiva no Telegram. Lá, você pode trocar experiências, compartilhar progressos e se motivar com outros alunos. Eu também passo por lá de vez em quando! 😄\n\nSe tiver mais alguma dúvida ou quiser seguir com a inscrição, é só falar!"
           },
           {
             "role": "client",
-            "message": "Isso é muito bom a saber! Uma garantia de 7 dias é um grande detalhe, pois me dá a confiança de que posso experimentar o serviço sem preocupação.\n\nEntão, para finalizar, posso concluir que vocês oferecem um serviço muito completo e versátil, com planos de treino e nutrição personalizados, acompanhamento de progresso, chat com nutricionista e comunidade exclusiva. Além disso, a garantia de 7 dias e a política de cancelamento simplificada são aspectos"
+            "message": "Isso é ótimo! A possibilidade de falar com um nutricionista e ter uma comunidade para interação faz a diferença. 😄 Você poderia me contar mais sobre como é a dinâmica da comunidade no Telegram? Tem algum tipo de atividade ou desafio em grupo? E como faço para me inscrever?"
           },
           {
             "role": "seller",
-            "message": "Sim, é isso aí! O FitFlow é uma plataforma completa e versátil que oferece tudo o que você precisa para alcançar seus objetivos de saúde e bem-estar. E, como você mencionou, a garantia de 7 dias e a política de cancelamento simplificada são aspectos importantes que nos tornam uma opção segura e confiável.\n\nEu estou aqui para ajudar a responder a qualquer outra dúvida que você possa ter. Se você tiver alguma outra pergunta ou precisar de mais informações, b"
+            "message": "A comunidade no Telegram é bem animada! É um espaço pra galera trocar experiências, compartilhar dicas, desafios e até motivação. Às vezes rolam desafios em grupo, onde todo mundo se une pra alcançar metas comuns, o que é super legal!\n\nPra se inscrever, você só precisa escolher um dos planos que mencionei antes. Assim que finalizar a compra, você recebe todas as informações, incluindo como acessar a comunidade. \n\nSe quiser, posso te ajudar com o link pra inscrição! Qual plano você tá pensando em escolher? 😄"
           }
         ],
         "metadata": {
@@ -373,8 +373,8 @@
       "success": true
     },
     {
-      "clientName": "Leticia Rodrigues",
-      "description": "Lead em fase de pesquisa",
+      "clientName": "Luiza",
+      "description": "Lead em fase de pesquisa, coletando informações para avaliar opções no futuro.",
       "conversation": {
         "conversation": [
           {
@@ -383,47 +383,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Pra mim fala Mel. Qual é o seu nome? E o que você gostaria de saber sobre o FitFlow?"
+            "message": "Oi! Tudo bem? 😊 Sou a Mel, assistente da FitFlow. Que legal que você se interessou! O que você gostaria de saber mais? Treinos, nutrição, planos? Me conta!"
           },
           {
             "role": "client",
-            "message": "Eu sou Mel, um assistente virtual aqui para ajudar você! Estou ansioso para aprender mais sobre o FitFlow. Pode me contar um pouco sobre o produto e qual é o problema específico que você está tentando resolver? Estou aqui para ouvir e ajudar da melhor forma possível!"
+            "message": "Oi, Mel! Tudo certo! 😊 Estou pensando em começar a treinar, mas não sei bem por onde começar. Você poderia dar algumas dicas de treinos para iniciantes e informações sobre nutrição também?"
           },
           {
             "role": "seller",
-            "message": "Olá Mel, bom encontrar você! Sou a Mel, uma consultora de saúde e bem-estar, e estou aqui para falar sobre o FitFlow. É uma plataforma online que ajuda as pessoas a alcançar seus objetivos de treino e nutrição de forma personalizada e fácil.\n\nO problema que estou tentando resolver é que a maioria das pessoas que querem melhorar sua saúde e condicionamento físico não sabem por onde começar. Eles podem ter objetivos claros, mas não sabem como alcançá-los de"
+            "message": "Oi! Que massa que você tá pensando em começar! 😄\n\nA FitFlow é perfeita pra isso. A gente tem um quiz que você responde em 5 minutinhos, e com base nas suas respostas, a IA monta um plano de treino e nutrição personalizado, respeitando seu nível e objetivos. \n\nOs treinos podem ser feitos em casa (sem equipamento) ou na academia. E o plano alimentar vai considerar qualquer restrição que você tiver, como lactose ou vegetariano.\n\nSe você quiser, posso te passar informações sobre nossos planos e preços! 😉"
           },
           {
             "role": "client",
-            "message": "Interessante! Só uma pergunta rápida, Mel: o FitFlow é algo que você desenvolveu ou trabalhou em equipe? E como a plataforma ajuda as pessoas a encontrar o \"por onde começar\" e a alcançar seus objetivos de treino e nutrição? Estou ansioso para saber mais sobre o produto!"
+            "message": "Isso parece ótimo! Adoraria saber mais sobre os planos e preços. Além disso, você tem alguma recomendação específica para alguém que está começando e ainda não tem experiência com treinos? 😊"
           },
           {
             "role": "seller",
-            "message": "Não desenvolvi pessoalmente o FitFlow, mas trabalho em equipe com a equipe da FitFlow para promover e vender a plataforma. Ela foi desenvolvida por uma equipe de especialistas em inteligência artificial, nutrição e treino, que criaram um sistema que ajuda as pessoas a determinar seus objetivos e criar um plano de treino e nutrição personalizado para alcançá-los.\n\nA plataforma funciona de forma simples: você responde a um quiz de 5 minutos sobre seus objetivos, rotina, nível de condicion"
+            "message": "Claro! Aqui vão os planos:\n\n### Plano Trimestral (3 meses)\n- **Cartão de crédito:** 3x de R$79,90 (sem juros) = R$239,70\n- **PIX:** R$215,73 à vista (10% de desconto)\n- [Checkout Trimestral](https://fitflow.com.br/checkout/trimestral?cupom=10off)\n\n### Plano Anual (12 meses) — Mais Popular\n- **Cartão de crédito:** 12x de R$49,90 (sem juros) = R$"
           },
           {
             "role": "client",
-            "message": "Uma plataforma desenvolvida por uma equipe de especialistas com conhecimento em inteligência artificial, nutrição e treino, é uma combinação muito interessante!\n\nE eu entendi correto que a plataforma funciona com um quiz de 5 minutos para determinar os objetivos e criar um plano de treino e nutrição personalizado. Isso é uma forma muito rápida e eficaz de começar a trabalhar em direção aos objetivos de saúde e bem-estar.\n\nO que acontece após o quiz? A plataforma gera um plano de a"
+            "message": "Que legal! Os planos parecem muito acessíveis. Para quem está começando, você recomendaria começar com o plano trimestral ou o anual? E quanto aos treinos, tem alguma dica inicial? Por exemplo, quantas vezes por semana seria bom treinar? 😊"
           },
           {
             "role": "seller",
-            "message": "Depois do quiz, a plataforma gera um plano de treino e nutrição personalizado para você, com base nos seus objetivos e necessidades. O plano inclui uma rotina de treinos semanais, com exercícios que você pode fazer em casa ou na academia, e um plano alimentar semanal, com listas de compras e receitas para ajudá-lo a manter uma nutrição saudável.\n\nAlém disso, a plataforma reajusta o plano a cada 2 semanas, com base nos seus progressos e resultados,"
+            "message": "Ótima pergunta! Para quem tá começando, o **plano trimestral** é uma boa escolha. Assim, você pode testar e ver como se adapta aos treinos e à nutrição antes de se comprometer por um ano.\n\nSobre os treinos, o ideal é começar com **3 vezes por semana**. Isso dá tempo pro seu corpo se adaptar e evitar lesões. O plano da FitFlow se ajusta ao seu progresso, então você vai evoluir na medida certa!\n\nSe precisar de mais informações ou quiser se inscrever, é só me avisar! 💪"
           },
           {
             "role": "client",
-            "message": "Que funcionalidade incrível! A plataforma reajusta o plano a cada 2 semanas, levando em consideração os progressos e resultados do usuário, é uma forma de garantir que o plano esteja alinhado com as necessidades e objetivos do usuário ao longo do tempo.\n\nE eu gostaria de saber, Mel: há algum apoio ou comunidade dentro da plataforma onde os usuários possam se conectarem, se incentivarem mutuamente e compartilharem experiências e dicas? Algo que possa ajudar a manter os usu"
+            "message": "Perfeito, Mel! Acho que vou optar pelo plano trimestral, então. Estou animado para começar! Você pode me dizer como faço para me inscrever? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, a plataforma do FitFlow tem uma comunidade exclusiva no Telegram, onde os usuários podem se conectar, se incentivar mutuamente e compartilhar experiências e dicas. É um espaço seguro e confiável onde você pode conversar com outros usuários que têm objetivos semelhantes e compartilhar suas conquistas e desafios.\n\nAlém disso, a comunidade também é moderada por mim, a Mel, e outros especialistas em saúde e bem-estar, para garantir que os usuários tenham acesso a informações precisas"
+            "message": "Show! Fico feliz que você tenha decidido pelo plano trimestral! 🎉 \n\nPra se inscrever, é só acessar o link abaixo e escolher a forma de pagamento que preferir:\n\n👉 [Checkout Trimestral](https://fitflow.com.br/checkout/trimestral?cupom=10off)\n\nDepois de confirmar, você já vai ter acesso ao quiz e começar a montar seu plano. Qualquer dúvida durante o processo, é só me chamar! Vamos juntos nessa! 💪😊"
           },
           {
             "role": "client",
-            "message": "Que ótimo recurso! Uma comunidade exclusiva no Telegram é uma forma excelente de trazer os usuários juntos, criando uma sensação de comunidade e apoio mútuo. E, claro, ter a presença de uma consultora de saúde e bem-estar como você, Mel, e outros especialistas, é um grande recurso para garantir que as informações compartilhadas sejam precisas e confiáveis.\n\nIsso me faz pensar em uma questão: como você acredita que o FitFlow pode se diferenciar em um"
+            "message": "Obrigada, Mel! Vou me inscrever agora mesmo. Estou animado para começar essa jornada. Se surgir alguma dúvida, volto a falar com você. Valeu pelas dicas! 😊💪"
           },
           {
             "role": "seller",
-            "message": "Eu acho que o FitFlow se diferencia porque é uma plataforma que combina inteligência artificial com especialistas em saúde e bem-estar. Isso significa que os usuários têm acesso a uma experiência personalizada e alinhada com suas necessidades e objetivos, além de contar com a orientação de especialistas que podem ajudá-los a superar os desafios.\n\nAlém disso, a plataforma é muito flexível e adaptável, o que significa que os usuários podem começar a trabalhar em seus objetivos de saúde e bem-estar em qualquer"
+            "message": "De nada! Fico super feliz que você tá animado! 😊💪 \n\nQualquer dúvida que surgir, pode voltar aqui que estarei por perto. Boa sorte na sua jornada, e aproveite bastante! Até mais! 🚀"
           }
         ],
         "metadata": {
@@ -435,8 +435,8 @@
       "success": true
     },
     {
-      "clientName": "Rafaela Souza",
-      "description": "Lead altamente interessado",
+      "clientName": "Rafael",
+      "description": "Lead altamente interessado, quer saber detalhes sobre o plano e o que está incluso.",
       "conversation": {
         "conversation": [
           {
@@ -445,47 +445,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Prazer em conversar! Qual a sua motivação para se interessar em treinar com a FitFlow? Você quer melhorar a forma, perder peso ou treinar para um esporte específico?"
+            "message": "Oi! Tudo bem? Que bom que você se interessou! 😄 Me conta, qual é o seu nome? E o que você gostaria de saber sobre a FitFlow?"
           },
           {
             "role": "client",
-            "message": "Peço desculpas, mas parece que foi um mal-entendido. Eu não tenho conhecimento sobre o produto ou serviço FitFlow. Se você está procurando informação sobre um produto ou serviço específico, posso tentar ajudar a responder suas perguntas mais diretamente.\n\nSe você está procurando informações sobre preços e formas de pagamento, posso sugerir algumas perguntas para ajudar a obter mais informação:\n\n- Qual é o nome do produto ou serviço que você está interessado?\n- Pode me fornecer mais informações sobre o produto ou serviço"
+            "message": "Oi, mel! Meu nome é [Seu Nome]. Gostaria de saber mais sobre os tipos de treinos e se tem algum voltado para iniciantes. Obrigado! 😊"
           },
           {
             "role": "seller",
-            "message": "Nem problema! Eu sou a Mel, assistente de vendas da FitFlow. Eu estou aqui pra te ajudar a entender melhor o que é e como funciona.\n\nA FitFlow é uma plataforma online de treino e nutrição personalizada por inteligência artificial. É fácil e rápido, você faz um quiz de 5 minutos e a IA monta um plano de treino e alimentação pra você!\n\nQuer saber mais?"
+            "message": "Oi, [Seu Nome]! 😊\n\nAqui na FitFlow, os treinos são bem variados. A IA monta um plano personalizado pra você, respeitando seu nível de condicionamento. \n\nE sim, temos treinos específicos pra iniciantes! Você pode escolher entre fazer em casa (sem equipamento) ou na academia. \n\nSe precisar de mais detalhes ou quiser saber sobre como funciona o plano, é só falar!"
           },
           {
             "role": "client",
-            "message": "Olá Mel!\n\nSim, estou interessado em saber mais sobre a FitFlow. Parece um produto muito interessante e inovador. Uma plataforma de treino e nutrição personalizada por inteligência artificial é uma coisa que poderia ser muito útil para muitas pessoas.\n\nO que acontece exatamente com o quiz de 5 minutos? Como a IA monta um plano de treino e alimentação personalizado? Você pode me fornecer mais detalhes sobre isso?\n\nE também gostaria de saber: qual é o custo da subscrição da FitFlow"
+            "message": "Isso é ótimo! Eu gostaria de saber mais sobre os treinos que vocês oferecem para iniciantes, especialmente os que podem ser feitos em casa. Tem algum tipo de exercício ou rotina específica que vocês recomendam? 😊"
           },
           {
             "role": "seller",
-            "message": "Olá! Prazer em conversar!\n\nSim, o quiz de 5 minutos é a chave para que a FitFlow possa entender melhor suas necessidades e objetivos. Você vai responder perguntas sobre seus hábitos alimentares, seu nível de condicionamento físico, seus objetivos e restrições (se tiver alguma).\n\nDepois do quiz, a IA vai montar um plano de treino semanal com exercícios adequados para você, seja em casa ou na academia. E também um plano alimentar completo com receitas e lista de compr"
+            "message": "Claro, [Seu Nome]! Para iniciantes, os treinos em casa focam em movimentos básicos e funcionais, como:\n\n- Agachamentos\n- Flexões (ou variações)\n- Pranchas\n- Abdominais\n- Exercícios com peso corporal\n\nA rotina é montada de forma a aumentar gradualmente a intensidade e a complexidade. Assim, você vai evoluindo sem se sentir sobrecarregado. \n\nSe você quiser, posso te contar mais sobre como funciona o plano e os preços! O que acha? 😊"
           },
           {
             "role": "client",
-            "message": "Entendi melhor agora! O quiz é uma forma de a FitFlow coletar informações sobre minhas necessidades e objetivos para criar um plano de treino e alimentação personalizado.\n\nE o que é que eu preciso fazer para começar a usar a FitFlow? Quais são as opções de pagamento e como posso acessar a plataforma?\n\nE também, se eu tiver alguma dúvida ou precisar de ajuda, há como contatar a equipe da FitFlow?"
+            "message": "Isso parece ótimo! Eu adoraria saber mais sobre como funciona o plano e os preços. Assim, posso entender melhor e decidir! 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, exatamente!\n\nPara começar a usar a FitFlow, você precisa fazer o quiz de 5 minutos que mencionei anteriormente. Depois disso, você receberá um e-mail com o acesso à sua conta e ao seu plano de treino e alimentação.\n\nQuanto às opções de pagamento, a FitFlow é muito flexível. Você pode pagar com cartão de crédito ou com PIX. Além disso, temos dois planos de assinatura: o trimestral e o anual. O trimestral é de R$239,"
+            "message": "Perfeito, [Seu Nome]! Vamos lá! \n\n### Como funciona o plano:\n1. **Quiz Inicial**: Você responde algumas perguntas sobre seus objetivos, rotina e restrições alimentares.\n2. **Plano Personalizado**: A IA monta um plano de treino e um plano alimentar completo.\n3. **Reajuste Automático**: A cada 2 semanas, o plano é ajustado com base no seu progresso.\n4. **Suporte com Nutricionista**: Acesso a um chat com nutricionista de segunda a sexta, das 8h às 18h."
           },
           {
             "role": "client",
-            "message": "Muito bem, parece que está tudo claro agora!\n\nO preço do plano trimestral é R$239. E o plano anual? Quanto custa?\n\nE também, como funciona o cancelamento da assinatura? Se eu decidir cancelar após um mês, posso fazer isso facilmente?\n\nE, por fim, você tem alguma promoção ou desconto especial para novos clientes?"
+            "message": "Isso parece muito completo! E quanto aos preços, como funciona? Tem algum tipo de assinatura ou pagamento único? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, exatamente!\n\nO plano anual custa R$598,80, que é uma ótima opção se você estiver comprometido em seguir seu plano de treino e alimentação por um longo período de tempo.\n\nQuanto ao cancelamento, é muito simples! Você pode cancelar sua assinatura a qualquer momento, e não há nenhum contrato obrigatório. Se você decidir cancelar após um mês, pode fazer isso facilmente por meio da área de controle da sua conta.\n\nE sim, temos uma promoção especial para novos"
+            "message": "Sim, [Seu Nome]! Temos duas opções de planos:\n\n### 1. Plano Trimestral (3 meses)\n- **Cartão de crédito**: 3x de R$79,90 (sem juros) = R$239,70\n- **PIX**: R$215,73 à vista (10% de desconto)\n\n### 2. Plano Anual (12 meses) — Mais Popular\n- **Cartão de crédito**: 12x de R$49,90 (sem juros) = R$598,80\n- **PIX**: R$"
           },
           {
             "role": "client",
-            "message": "Parabéns, parece que a FitFlow tem uma plataforma muito atraente e flexível!\n\nE a promoção especial para novos clientes, por favor, me diz mais sobre isso. Qual é o desconto ou oferta que você tem para os novos clientes?\n\nE também, posso fazer o quiz de 5 minutos em algum lugar da sua página ou eu preciso ir a um site específico para fazer isso?"
+            "message": "Desculpe, parece que a mensagem cortou. Poderia me completar sobre o plano anual? Estou curioso para saber mais sobre essa opção! 😊"
           },
           {
             "role": "seller",
-            "message": "Obrigada pelo elogio!\n\nA promoção especial que temos para novos clientes é um desconto de 10% no preço da assinatura trimestral e anual. Com isso, o plano trimestral custa R$215,73 (PIX à vista) e o plano anual custa R$478,90 (PIX à vista).\n\nE para fazer o quiz de 5 minutos, você pode acessar a nossa página da FitFlow e clicar no botão \"Fazer Quiz\" no topo da página. Isso o levitará diretamente para"
+            "message": "Claro, [Seu Nome]! Vamos lá:\n\n### Plano Anual (12 meses) — Mais Popular\n- **Cartão de crédito**: 12x de R$49,90 (sem juros) = R$598,80\n- **PIX**: R$478,90 à vista (20% de desconto)\n\n### O que está incluso em ambos os planos:\n✅ Plano de treino personalizado  \n✅ Plano alimentar com lista de compras  \n✅ Reajuste automático a cada 2 semanas  \n✅ Chat com nutricionista (seg-sex, 8h-18h)  \n✅"
           }
         ],
         "metadata": {
@@ -497,8 +497,8 @@
       "success": true
     },
     {
-      "clientName": "Isabella Oliveira",
-      "description": "Lead curioso",
+      "clientName": "Tatiane",
+      "description": "Lead com objeção de preço, compara com outras alternativas mais baratas.",
       "conversation": {
         "conversation": [
           {
@@ -507,47 +507,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Prazer em conversar! Você viu o anúncio do FitFlow? Quer saber mais sobre como funciona?"
+            "message": "Oi! Tudo certo? 😊 Qual é o seu nome? E o que você gostaria de saber mais sobre a FitFlow? Treinos, nutrição, planos?"
           },
           {
             "role": "client",
-            "message": "O FitFlow! Sim, eu estou ciente dele. O FitFlow é um produto que promete ajudar as pessoas a melhorar sua saúde e forma física, mas infelizmente não tenho mais informações atualizadas sobre ele, pois eu não tenho conhecimento mais recente do que 01 de janeiro de 2023. \n\nPosso dizer que geralmente o FitFlow é uma solução que combina uma mistura de suplementos, exercícios e hábitos de vida saudáveis para ajudar as pessoas a ating"
+            "message": "Oi! Estou bem, obrigada! Meu nome é [Seu Nome]. Gostaria de saber mais sobre os treinos e a abordagem da FitFlow em comparação com outras opções. O que a torna especial? 😊"
           },
           {
             "role": "seller",
-            "message": "O FitFlow é mais do que isso! 👍 Ele é uma plataforma online que utiliza inteligência artificial para criar planos de treino e alimentação personalizados para cada pessoa. É um sistema que se adapta ao seu progresso e nível de condicionamento, sem precisar de equipamentos especiais ou consultas individuais com um nutricionista.\n\nO que eu posso te dizer é que, desde janeiro de 2023, o FitFlow tem crescido muito e agora tem mais de 15.000 alunos ativos em todo o Brasil. Al"
+            "message": "Oi, [Seu Nome]! Que bom que você tá bem! 😄\n\nA FitFlow se destaca por oferecer treinos e planos alimentares personalizados através de uma inteligência artificial. Isso significa que, ao fazer um quiz de 5 min, a IA cria um plano específico pra você, levando em conta:\n\n✅ Seu nível de condicionamento\n✅ Objetivos\n✅ Rotina e restrições alimentares\n\nOutra coisa legal é que os treinos são flexíveis: dá pra fazer em casa (sem equipamento) ou na academia. E a cada 2 semanas, o plano é reajustado"
           },
           {
             "role": "client",
-            "message": "Entendi melhor agora! O FitFlow é uma plataforma online revolucionária que utiliza inteligência artificial para oferecer treinos e planos de alimentação personalizados.\n\nE isso é incrível! 15.000 alunos ativos em todo o Brasil é um número significativo, especialmente num curto período de tempo. Isso indica que o FitFlow está fazendo algo de bem e está realmente ajudando as pessoas a alcançar seus objetivos de saúde e forma física.\n\nSeria ótimo saber mais sobre os resultados que os usuários estão alcançando com a plataforma"
+            "message": "Isso é muito interessante! A personalização e a flexibilidade são realmente pontos fortes. A parte da atualização a cada duas semanas também parece ajudar a manter as coisas frescas e alinhadas com os objetivos. E como funciona o suporte durante todo esse processo? Tem algum acompanhamento ou comunidade para troca de experiências? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, o FitFlow está fazendo uma grande diferença na vida de muitas pessoas! 🙌 Conforme as avaliações dos alunos, a maioria relata mudanças significativas em sua saúde e forma física após usar a plataforma. Alguns resultados comuns incluem perda de peso, aumento da força e resistência, melhoria da flexibilidade e do equilíbrio, e até mesmo uma maior energia e disposição.\n\nAlém disso, o FitFlow também oferece uma comunidade online exclusiva para os alunos, onde eles"
+            "message": "Exatamente! Essa atualização a cada duas semanas é ótima pra manter a motivação e garantir que você esteja sempre evoluindo. \n\nQuanto ao suporte, você tem acesso a um chat com nutricionista de segunda a sexta, das 8h às 18h, onde pode tirar dúvidas e receber orientações. E tem também uma comunidade exclusiva no Telegram, onde os alunos trocam experiências, compartilham progressos e se motivam. Eu também apareço por lá de vez em quando! 😄\n\nSe precisar de mais detalhes, é só falar!"
           },
           {
             "role": "client",
-            "message": "Isso é incrível! É sempre gratificante ver as pessoas alcançarem seus objetivos de saúde e forma física, e é ainda mais impressionante quando uma plataforma como o FitFlow consegue ajudar tantas pessoas de maneira tão eficaz.\n\nA perda de peso, o aumento da força e resistência, a melhoria da flexibilidade e do equilíbrio, e a maior energia e disposição são resultados ótimos e que valem cada penny investido na plataforma. Além disso, a comunidade online exclusiva é um"
+            "message": "Isso parece incrível! Ter acesso a um nutricionista e uma comunidade para suporte e motivação faz toda a diferença. A interação com outras pessoas na mesma jornada pode ser muito encorajadora. \n\nE quanto à variedade dos treinos, eles são adaptáveis às diferentes preferências ou estão sempre focados em um estilo específico? Se eu tiver alguma restrição, como lesões, isso também é levado em conta nos planos? 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, é incrível ver as pessoas alcançarem seus objetivos e melhorarem sua saúde e forma física! O FitFlow é uma plataforma que não apenas oferece treinos e planos de alimentação personalizados, mas também uma comunidade de apoio e motivação para ajudar os alunos a alcançarem seus objetivos.\n\nE você sabia que o FitFlow é muito acessível? Temos dois planos principais: o Trimestral e o Anual. O Trimestral custa R$239,70 em 3x sem juros,"
+            "message": "Sim, a interação na comunidade é super valiosa! Sobre os treinos, eles são bem variados e adaptáveis. A IA monta um plano que pode incluir diferentes estilos, como força, cardio e até treinos de flexibilidade, dependendo das suas preferências.\n\nE sim, se você tiver alguma restrição, como lesões ou condições específicas, isso é levado em conta no quiz. O plano é feito pra respeitar seus limites e garantir que você treine de forma segura e eficaz. \n\nSe tiver mais perguntas ou quiser saber sobre os planos, é só falar! 😊"
           },
           {
             "role": "client",
-            "message": "Entendi melhor agora! O FitFlow não é apenas uma plataforma de treinos e nutrição, mas também uma comunidade de apoio e motivação que ajuda as pessoas a alcançarem seus objetivos de saúde e forma física.\n\nE é incrível saber que o FitFlow é acessível a muitas pessoas! Oferecer planos de pagamento em 3x sem juros ajuda a tornar a plataforma mais acessível para aqueles que não podem pagar em um único dia. Além disso, R$239,70 é um preço bastante raz"
+            "message": "Perfeito! A combinação de variedade e personalização para atender a restrições específicas é crucial. Isso demonstra um cuidado real com a saúde dos alunos. \n\nSe puder, gostaria de saber mais sobre os tipos de planos disponíveis e se há opções para diferentes níveis de compromisso (como mensal, trimestral, etc.). E também se há uma experiência grátis ou uma demonstração antes de se comprometer. 😊"
           },
           {
             "role": "seller",
-            "message": "Sim, o FitFlow é uma plataforma que vai além de apenas oferecer treinos e planos de alimentação. É uma comunidade que se preocupa em ajudar as pessoas a alcançarem seus objetivos de saúde e forma física.\n\nE você está correto, o plano Trimestral é uma opção muito acessível. E se você pagar à vista, podemos oferecer um desconto de 10% para R$215,73. É uma ótima oportunidade para começar sua jornada de saúde e forma física!\n\nAlém disso,"
+            "message": "Com certeza, [Seu Nome]! A FitFlow oferece dois planos principais:\n\n### Plano Trimestral (3 meses)\n- **Cartão de crédito:** 3x de R$79,90 (sem juros) = R$239,70\n- **PIX:** R$215,73 à vista (10% de desconto)\n\n### Plano Anual (12 meses) — Mais Popular\n- **Cartão de crédito:** 12x de R$49,90 (sem juros) = R$598,80\n- **PIX:** R$478,90 à vista (20"
           },
           {
             "role": "client",
-            "message": "Obrigado por compartilhar mais informações sobre o FitFlow! É incrível saber que a plataforma oferece mais do que apenas treinos e planos de alimentação, mas também uma comunidade de apoio e motivação para ajudar as pessoas a alcançarem seus objetivos.\n\nE é emocionante saber que o plano Trimestral pode ser pago à vista com um desconto de 10%! R$215,73 é um preço incrível para uma plataforma como o FitFlow, que oferece treinos personalizados, planos de alimentação e uma"
+            "message": "Que ótimos planos! O desconto para pagamento à vista é uma boa forma de economizar. \n\nVocê mencionou que o plano anual é o mais popular. Tem alguma indicação de como a maioria dos alunos se sente em relação a resultados após esses 12 meses? E quanto à experiência grátis ou uma demonstração, a FitFlow oferece algo assim para novos alunos? 😊"
           },
           {
             "role": "seller",
-            "message": "De nada! Fico feliz em poder compartilhar mais sobre o FitFlow e como ele pode ajudar as pessoas a melhorarem sua saúde e forma física.\n\nE sim, o plano Trimestral é uma ótima opção para quem quer começar a usar a plataforma. O desconto de 10% é uma maneira de agradecer por escolher o FitFlow.\n\nSe você estiver pronto para começar, posso te ajudar a criar sua conta e começar a usar a plataforma. Ou, se você tiver alguma dúvida ou precis"
+            "message": "Sim, o pagamento à vista realmente ajuda a economizar! Sobre os resultados, a maioria dos alunos relata mudanças significativas entre 4 e 8 semanas, dependendo da consistência e dos objetivos. Depois de 12 meses, muitos já alcançam metas bem legais!\n\nQuanto à experiência grátis, a FitFlow não tem uma versão gratuita. Porém, você pode testar sem risco com a garantia de 7 dias. Se não curtir, é só pedir o reembolso total, sem precisar justificar. \n\nSe precisar de mais alguma coisa, é só avisar! 😊"
           }
         ],
         "metadata": {
@@ -559,8 +559,8 @@
       "success": true
     },
     {
-      "clientName": "Gabriel Silva",
-      "description": "Lead com objeção de preço",
+      "clientName": "Gustavo",
+      "description": "Lead desconfiado, pede garantias e informações sobre a comunidade.",
       "conversation": {
         "conversation": [
           {
@@ -569,171 +569,47 @@
           },
           {
             "role": "seller",
-            "message": "Olá! Qual é o seu nome e o que mais gostaria de saber sobre o FitFlow? Estou aqui para ajudar!"
+            "message": "Oi! Tudo bem? 😄 Qual o seu nome?\n\nA FitFlow é uma plataforma online que oferece treino e nutrição personalizada por inteligência artificial. Você faz um quiz rápido e, a partir daí, a IA monta um plano de treino e um plano alimentar pra você. Tem alguma dúvida específica ou quer saber mais sobre os planos?"
           },
           {
             "role": "client",
-            "message": "Meu nome é Lucas, e estou aqui para responder às suas dúvidas sobre o FitFlow.\n\nSim, o FitFlow é um produto que muitas pessoas acham que é um pouco caro. No entanto, eu gostaria de destacar que oferecemos algumas opções de pagamento parcelado e descontos para clientes novos.\n\nVocê seria interessado em saber mais sobre essas opções? Além disso, gostaria de perguntar: Quais são suas principais expectativas em relação ao FitFlow? Está procurando por solu"
+            "message": "Oi! Tudo bem, e você? 😊 Meu nome é [Seu Nome]. Achei interessante a proposta da FitFlow! Como funciona a parte da comunidade no Telegram? O apoio lá é realmente eficaz?"
           },
           {
             "role": "seller",
-            "message": "Olá Lucas! É legal conversar com você!\n\nSim, estou interessado em saber mais sobre as opções de pagamento parcelado e descontos. Eu estava olhando para o site e vi que há um cupom para 10% de desconto, mas não sei se há outras opções.\n\nE quanto às minhas expectativas, estou procurando por uma solução que me ajude a melhorar meu condicionamento físico e perder peso de forma saudável. Estou começando a treinar regularmente, mas não sei se estou faz"
+            "message": "Oi, [Seu Nome]! Tudo certo, valeu por perguntar! 😊\n\nA comunidade no Telegram é um grupo exclusivo onde os alunos trocam experiências, compartilham progressos e se motivam. É um espaço bem legal pra se conectar com outras pessoas que estão na mesma jornada. Eu também passo por lá de vez em quando pra dar uma força!\n\nSobre a eficácia, muitos alunos falam que a troca de dicas e apoio faz toda a diferença. Se precisar de mais info sobre os planos, é só falar!"
           },
           {
             "role": "client",
-            "message": "Olá de volta!\n\nSim, o cupom de 10% de desconto é uma excelente forma de começar. Além disso, eu posso oferecer mais uma opção especial para clientes novos. Temos um programa de fidelidade que fornece 15% de desconto na compra de assinatura de 6 meses.\n\nNo que diz respeito a suas expectativas, estou aqui para ajudar. O FitFlow é uma plataforma de treinamento personalizado que pode ajudá-lo a alcançar seus objetivos de condicionamento"
+            "message": "Que legal! Parece uma ótima forma de se manter motivado. É bom saber que você participa também! Quais tipos de apoio você acha que são mais comuns nesse grupo? E tem algumas dicas que você costuma compartilhar lá?"
           },
           {
             "role": "seller",
-            "message": "Olá Lucas!\n\nAgradeço a informação sobre o programa de fidelidade! 15% de desconto em 6 meses é uma ótima oferta. Vou considerar isso.\n\nE sim, estou procurando por uma forma de melhorar meu condicionamento físico e perder peso de forma saudável. O treino em casa é uma ótima opção para mim, pois não tenho tempo para ir à academia todos os dias.\n\nPode me falar mais sobre como o FitFlow funciona? Como a plataforma personaliza os treinos e plan"
+            "message": "Com certeza, [Seu Nome]! A motivação é tudo, né? 💪\n\nNo grupo, os apoios mais comuns são:\n\n- Troca de receitas e dicas de alimentação saudável.\n- Compartilhamento de resultados e conquistas, que sempre anima a galera.\n- Sugestões de treinos e como adaptar os exercícios.\n- Aconselhamentos sobre como lidar com a rotina e manter a disciplina.\n\nQuanto às dicas, eu costumo compartilhar sobre a importância de ajustar os treinos conforme seu nível e de não esquecer de cuidar da alimentação. Além disso, incentivo todo mundo"
           },
           {
             "role": "client",
-            "message": "Excelente escolha! Treinar em casa pode ser muito prático e eficaz, especialmente com a ajuda da tecnologia.\n\nBom, o FitFlow é uma plataforma de treinamento personalizado que usa dados científicos e análise de movimento para criar planos de treinamento adaptados às suas necessidades e objetivos. Aqui está como funciona:\n\n1. **Avaliação Inicial**: Quando você se inscreve no FitFlow, você responderá a um questionário de avaliação física e saúde. Isso nos ajuda a entender"
+            "message": "Isso é ótimo! A troca de experiências e dicas práticas pode realmente fazer a diferença. E você tem alguma estratégia específica para ajudar as pessoas a manterem a disciplina? É um desafio e tanto para muitos. 😅"
           },
           {
             "role": "seller",
-            "message": "Sim, isso soa interessante! Eu não sabia que o FitFlow era assim tão personalizado. A ideia de ter um plano de treinamento adaptado às minhas necessidades e objetivos é muito atraente.\n\nE acho que a avaliação inicial é uma ótima ideia. Quero ser seguro de que estou fazendo os exercícios certos e não estou correndo riscos de lesões.\n\nMas, posso perguntar, o que acontece se eu não tiver acesso a equipamentos em casa? Você"
+            "message": "Com certeza, [Seu Nome]! Manter a disciplina é um desafio, mas algumas estratégias ajudam bastante:\n\n1. **Definir metas pequenas e alcançáveis**: Isso dá uma sensação de conquista e mantém a motivação lá em cima.\n\n2. **Criar uma rotina**: Ter horários fixos pra treinar e se alimentar ajuda a transformar isso em hábito.\n\n3. **Registrar o progresso**: Tirar fotos e anotar medidas pode ser um grande motivador. Ver a evolução traz uma força danada!\n\n4. **Buscar apoio na comunidade**: Trocar experiências e se"
           },
           {
             "role": "client",
-            "message": "Excelente pergunta! Sim, é verdade que todos não têm acesso a equipamentos específicos em casa. Nesse caso, o FitFlow tem um plano de treinamento que foca em treinos de corpo livre e exercícios que não requerem equipamentos especiais.\n\nAlém disso, nossa equipe de treinadores personalizados pode adaptar o plano de treinamento para você usar apenas o que está disponível em casa, como pesos livres, barras de treinamento, ou até mesmo apenas o seu próprio peso corporal.\n\nE, se você"
+            "message": "motivar com outros é bem poderoso. Ter um grupo de apoio faz com que a pessoa se sinta menos sozinha na jornada.\n\n5. **Incluir atividades que você gosta**: Se o treino for divertido, fica muito mais fácil de manter!\n\nEssas estratégias costumam ajudar bastante. Você já usa alguma delas na sua rotina? 😊"
           },
           {
             "role": "seller",
-            "message": "Isso é muito legal! Eu não sabia que o FitFlow tinha planos de treinamento para quem não tem acesso a equipamentos especiais. Isso torna o programa muito mais acessível e prático para pessoas como eu que não têm espaço ou recursos para equipamentos.\n\nE a ideia de que a equipe de treinadores pode adaptar o plano de treinamento para usar apenas o que está disponível em casa é muito útil. Isso mostra que o FitFlow está realmente preocupado em ajudar as pessoas a alcançar seus objetivos, não"
+            "message": "Exatamente, [Seu Nome]! A sensação de não estar sozinho faz toda a diferença! \n\nE as dicas que passei são super práticas, né? Se você já usa alguma delas, pode ser um bom sinal de que tá no caminho certo! Se precisar de mais ideias ou quiser saber sobre os planos da FitFlow, é só falar! 😊"
           },
           {
             "role": "client",
-            "message": "Sim, exatamente! O FitFlow é projetado para ser flexível e adaptável às necessidades e recursos individuais de cada pessoa. Nossa equipe de treinadores está treinada para ajudar você a alcançar seus objetivos, não importa se você tem ou não equipamentos especiais.\n\nE, por falar nisso, nossa equipe também está disponível para responder a qualquer pergunta ou dúvida que você tenha ao longo do seu treinamento. Nós queremos que você se sinta apoiado e motivado a"
+            "message": "Com certeza, as dicas são super práticas e funcionais! Estou tentado a usar algumas delas, especialmente a de definir metas pequenas. Isso parece bem viável. E sobre os planos da FitFlow, você pode me dar uma ideia do que eles oferecem? Estou curioso pra entender melhor! 😊"
           },
           {
             "role": "seller",
-            "message": "Isso é incrível! Eu estou começando a me sentir muito confortável com a ideia de usar o FitFlow. A equipe de treinadores parece muito experiente e comprometida em ajudar as pessoas a alcançar seus objetivos.\n\nE a ideia de que a equipe estará disponível para responder a perguntas e dúvidas ao longo do treinamento é muito aliviadora. Eu sei que vou ter alguma dúvida ou incerteza, e saber que posso contar com a equipe para ajudar é muito reconfort"
-          }
-        ],
-        "metadata": {
-          "totalMessages": 12,
-          "sellerMessages": 6,
-          "clientMessages": 6
-        }
-      },
-      "success": true
-    },
-    {
-      "clientName": "Amanda Santos",
-      "description": "Lead desconfiado ou cético",
-      "conversation": {
-        "conversation": [
-          {
-            "role": "client",
-            "message": "Oi! Vi o anúncio e queria saber mais."
-          },
-          {
-            "role": "seller",
-            "message": "Olá! Prazer em te conhecer! Quais são suas expectativas com o FitFlow? Quer perder peso, ganhar massa, treinar para uma prova ou melhorar a saúde em geral?"
-          },
-          {
-            "role": "client",
-            "message": "Muito obrigado! Meu nome é [seu nome], e estou aqui para aprender mais sobre o FitFlow. Como conselheiro, estou interessado em saber como posso oferecer informações precisas e úteis para ajudar vocês a atender às necessidades dos seus clientes.\n\nPergunta interessante! Nossa expectativa é ajudar pessoas a alcançar seus objetivos de fitness de forma segura e eficaz. Queremos saber mais sobre o que você está buscando com o FitFlow e como podemos ajudar!"
-          },
-          {
-            "role": "seller",
-            "message": "Muito obrigado por me conhecer, [seu nome]! É ótimo saber que você está aqui para ajudar seus clientes de forma responsável.\n\nVamos lá! Eu sou Mel, uma ex-atleta de crossfit e consultora de saúde e bem-estar. Estou aqui para responder às suas perguntas e ajudá-lo a entender como o FitFlow pode ajudar seus clientes.\n\nO que você gostaria de saber primeiro? Quer saber como funciona o quiz de personalização, como os planos de treino e nutrição são criados ou algo"
-          },
-          {
-            "role": "client",
-            "message": "Muito obrigado por me apresentar, Mel! É ótimo conhecer você também.\n\nAcho que é uma ótima oportunidade para aprender mais sobre o FitFlow. Com a minha experiência como conselheiro, eu estou interessado em entender como vocês garantem que o FitFlow seja eficaz e seguro para os seus clientes.\n\nPergunto-me: O que é que torna o FitFlow diferente de outros programas de fitness que existem no mercado? E como vocês garantem que os usuários estejam seguros ao adotar os"
-          },
-          {
-            "role": "seller",
-            "message": "Excelente pergunta, [seu nome]! É fundamental garantir a segurança e eficácia do FitFlow para nossos clientes.\n\nO que torna o FitFlow diferente é a nossa abordagem personalizada e segura. Nossa IA é treinada para criar planos de treino e nutrição que se adaptam às necessidades e objetivos individuais de cada usuário. Além disso, nossos planos são baseados em evidências científicas e são revisados por nutricionistas e treinadores experientes.\n\nPara"
-          },
-          {
-            "role": "client",
-            "message": "Entendi melhor agora! É ótimo saber que o FitFlow prioriza a segurança e eficácia através de uma abordagem personalizada e apoiada por evidências científicas.\n\nInteressante mencionar que os planos são revisados por nutricionistas e treinadores experientes. Isso deve garantir que os clientes recebam orientação precisa e segura.\n\nOutra pergunta que eu tenho é sobre a avaliação das respostas dos usuários no quiz de personalização. Como a IA do FitFlow avalia ess"
-          },
-          {
-            "role": "seller",
-            "message": "Excelente pergunta, [seu nome]! A avaliação das respostas dos usuários no quiz é um processo importante para que a IA do FitFlow crie um plano personalizado.\n\nNossa IA utiliza um algoritmo complexo que leva em conta as respostas dos usuários em diferentes áreas, como objetivos, nível de condicionamento, restrições alimentares e mais. Isso permite que a IA identifique padrões e tendências em cada usuário e crie um plano que se adapte às suas necessidades específicas.\n\nAlém"
-          },
-          {
-            "role": "client",
-            "message": "Entendi melhor agora! É fascinante saber sobre o processo de avaliação das respostas dos usuários e como a IA do FitFlow usa um algoritmo complexo para criar um plano personalizado.\n\nInteressante mencionar que a IA leva em conta diferentes áreas, como objetivos, nível de condicionamento, restrições alimentares e mais. Isso deve garantir que os planos estejam alinhados com as necessidades individuais de cada usuário.\n\nOutra pergunta que eu tenho é sobre a atualização e revisão dos"
-          },
-          {
-            "role": "seller",
-            "message": "Excelente pergunta, [seu nome]! A atualização e revisão dos planos são fundamentais para garantir que os usuários continuem a alcançar seus objetivos e evoluam de forma segura.\n\nNossa IA do FitFlow é projetada para reajustar os planos a cada 2 semanas, com base nas informações fornecidas pelos usuários sobre seu progresso. Isso permite que a IA ajuste o nível de dificuldade, os exercícios e a nutrição para que os usuários continuem a se"
-          },
-          {
-            "role": "client",
-            "message": "Entendi melhor agora! É ótimo saber que a IA do FitFlow é projetada para reajustar os planos a cada 2 semanas, com base nas informações fornecidas pelos usuários.\n\nIsso deve ser muito valioso para os usuários, pois garante que os planos estejam alinhados com o seu progresso e evoluam de forma segura. Além disso, o fato de que a IA ajuste o nível de dificuldade, os exercícios e a nutrição para que os usuários continuem"
-          },
-          {
-            "role": "seller",
-            "message": "Excelente observação, [seu nome]! Sim, é fundamental que os planos sejam adaptados às necessidades e progresso dos usuários para que eles possam alcançar seus objetivos de forma segura e eficaz.\n\nE é justamente isso que a IA do FitFlow faz. Além de ajustar o nível de dificuldade, os exercícios e a nutrição, também fornece feedback e orientação personalizada para que os usuários possam entender melhor como funcionar seu corpo e melhorar seu desempenho"
-          }
-        ],
-        "metadata": {
-          "totalMessages": 12,
-          "sellerMessages": 6,
-          "clientMessages": 6
-        }
-      },
-      "success": true
-    },
-    {
-      "clientName": "Pedro Lucas",
-      "description": "Lead cliente atual",
-      "conversation": {
-        "conversation": [
-          {
-            "role": "client",
-            "message": "Oi! Vi o anúncio e queria saber mais."
-          },
-          {
-            "role": "seller",
-            "message": "Bem-vindo ao FitFlow! 😊 Eu sou a Mel, sua assistente de vendas. Qual é o seu objetivo com a atividade física? Você está procurando perder peso, ganhar massa muscular, se manter saudável ou algo mais?"
-          },
-          {
-            "role": "client",
-            "message": "Olá Mel, é bom estar de volta! Minha meta é manter uma rotina de exercícios regulares e nutrição adequada para me sentir mais saudável e energética. Estou atualmente com o meu plano vigente há anos, mas gostaria de saber se há novas opções ou ajustes que possam melhorar a minha experiência e alcance metas de exercício. Qual a sua sugestão para uma renovação do meu plano?"
-          },
-          {
-            "role": "seller",
-            "message": "Parabéns por querer renovar sua rotina de exercícios e nutrição! Aqui no FitFlow, temos uma plataforma de treino e nutrição personalizada por inteligência artificial que pode ajudar a melhorar sua experiência e alcançar suas metas.\n\nNossa plataforma oferece planos de treino semanais personalizados, com exercícios para fazer em casa ou na academia, e planos de nutrição que respeitam suas restrições alimentares. Além disso, temos um chat com nut"
-          },
-          {
-            "role": "client",
-            "message": "Parece muito interessante! Eu estou procurando por uma experiência mais personalizada e eficaz. Gostaria de saber mais sobre os planos de treino e nutrição que você oferece. Como esses planos são personalizados, eles consideram minhas necessidades e objetivos específicos?\n\nE o que acontece se eu tiver restrições alimentares ou necessidades especiais, como alergias ou intolerâncias alimentares? A plataforma pode ajustar os planos de nutrição para me atender?\n\nAlém disso"
-          },
-          {
-            "role": "seller",
-            "message": "Excelente pergunta! Nossa plataforma de treino e nutrição personalizada por inteligência artificial é projetada para considerar suas necessidades e objetivos específicos.\n\nQuando você se inscreve, você realizará um quiz de 5 minutos que nos ajudará a entender melhor suas metas, seu nível de condicionamento, suas restrições alimentares e suas necessidades específicas. Com essas informações, nossa IA cria um plano de treino semanal personalizado e um plano de nutrição que se adequa às suas necessidades.\n\nSe você"
-          },
-          {
-            "role": "client",
-            "message": "Isso soa muito avançado e interessante! Eu estou impressionada com a tecnologia e a personalização que vocês oferecem.\n\nPergunta para mim: O plano de treino é adequado para todas as habilidades e níveis de condicionamento físico? Ou é projetado para pessoas que têm experiência em exercícios ou precisam de um plano mais moderado?\n\nE quanto ao apoio, há algum contendo com um profissional de treino ou nutrição que possa me ajudar a ajustar meus planos ou responder"
-          },
-          {
-            "role": "seller",
-            "message": "Excelente pergunta novamente!\n\nSim, nosso plano de treino é projetado para ser acessível para todas as habilidades e níveis de condicionamento físico. Nossa IA considera seu nível de condicionamento e ajusta o plano de treino para que seja seguro e eficaz para você.\n\nSe você é iniciante, nosso plano de treino começa com exercícios leves e progressivos, para que você possa se familiarizar com os movimentos e aumentar gradualmente a intensidade. Já se você é mais experiente, nosso plano"
-          },
-          {
-            "role": "client",
-            "message": "Isso é muito bom saber! Eu acho que essa abordagem é muito mais segura e eficaz do que ter um plano de treino rígido que pode não se adequar às minhas necessidades.\n\nE quanto ao suporte, você mencionou que há um profissional de treino ou nutrição que pode me ajudar. Quantas consultas ou mensagens eu posso enviar por semana para obter feedback e orientação? E como posso contatar esses profissionais se tiver alguma dúvida ou preocupação?\n\nAl"
-          },
-          {
-            "role": "seller",
-            "message": "Muito obrigada por elogiar nossa abordagem!\n\nQuanto ao suporte, sim, você tem acesso a um chat com nutricionista disponível de segunda a sexta-feira, das 8h às 18h. Você pode enviar quantas mensagens quiser durante esse período e receber feedback e orientação direta do nutricionista.\n\nAlém disso, você também tem acesso à nossa comunidade no Telegram, onde pode se conectar com outros alunos, compartilhar experiências e obtenha apoio e motivação de seus colegas de tre"
-          },
-          {
-            "role": "client",
-            "message": "Isso é ótimo! Eu acho que ter acesso a um chat com nutricionista é muito útil, especialmente se eu tiver alguma dúvida ou preocupação sobre os meus planos de treino e nutrição.\n\nE a comunidade no Telegram também soa muito interessante! Eu adoro compartilhar experiências e receber apoio e motivação de outros pessoas que compartilham das minhas metas.\n\nAgora que eu sei mais sobre as opções e benefícios da sua plataforma, posso perguntar sobre"
-          },
-          {
-            "role": "seller",
-            "message": "Muito obrigada por sua opinião!\n\nSim, claro, você pode perguntar sobre qualquer coisa. O que você gostaria de saber agora?\n\nLembre-se de que estou aqui para ajudar e fornecer informações sobre a nossa plataforma. Se você tiver alguma dúvida ou preocupação, não hesite em perguntar.\n\nE se você estiver pronto para se inscrever, posso ajudá-lo a escolher o plano que melhor se adequa às suas necessidades e objetivos."
+            "message": "Claro, [Seu Nome]! Aqui vai um resumo dos planos da FitFlow:\n\n### Plano Trimestral (3 meses)\n- **Cartão de crédito**: 3x de R$79,90 (sem juros) = R$239,70\n- **PIX**: R$215,73 à vista (10% de desconto)\n\n### Plano Anual (12 meses) — Mais Popular\n- **Cartão de crédito**: 12x de R$49,90 (sem juros) = R$598,80\n- **PIX**: R$478,"
           }
         ],
         "metadata": {
@@ -746,8 +622,8 @@
     }
   ],
   "metadata": {
-    "totalClients": 12,
-    "successfulSimulations": 12,
+    "totalClients": 10,
+    "successfulSimulations": 10,
     "failedSimulations": 0
   }
 }

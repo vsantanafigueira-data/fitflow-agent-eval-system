@@ -7,7 +7,7 @@ import "dotenv/config";
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { generateText } from "ai";
-import { groq } from "@ai-sdk/groq";
+import { openai } from "@ai-sdk/openai";
 import { z } from "zod";
 
 // --- Schema Zod (estrutura do output) ---
@@ -117,7 +117,7 @@ export async function generateClients(
   count: number
 ): Promise<ClientsOutput> {
 
-  const model = groq("llama-3.1-8b-instant");
+  const model = openai("gpt-4o-mini");
 
   const metaPrompt = buildClientGenerationPrompt(agentPrompt, count);
 
@@ -131,9 +131,22 @@ export async function generateClients(
   let parsed;
 
   try {
-    parsed = JSON.parse(text);
+
+    // remove blocos markdown ```json que o modelo pode retornar
+    const cleaned = text
+      .replace(/```json/g, "")
+      .replace(/```/g, "")
+      .trim();
+
+    parsed = JSON.parse(cleaned);
+
   } catch {
-    throw new Error("Modelo não retornou JSON válido:\n" + text);
+
+    console.error("Resposta do modelo:");
+    console.error(text);
+
+    throw new Error("Modelo não retornou JSON válido");
+
   }
 
   return ClientsOutputSchema.parse(parsed);

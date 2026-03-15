@@ -27,24 +27,25 @@ async function runPipeline() {
   console.log(`Clientes solicitados: ${clientCount}`);
   console.log(`Máx mensagens por conversa: ${maxMessages}`);
 
-  // 1️⃣ gerar clientes (PARTE 1)
+  // 1️⃣ ler prompt do vendedor
+
+  const sellerPrompt = readFileSync(
+    join(process.cwd(), "data", "agent-prompt.md"),
+    "utf-8"
+  );
+
+  // 2️⃣ gerar clientes fictícios
 
   console.log("Gerando clientes fictícios...");
 
-  const { clients } = await generateClients(clientCount);
+  const { clients } = await generateClients(sellerPrompt, clientCount);
 
   // garante que não ultrapasse o número solicitado
   const limitedClients = clients.slice(0, clientCount);
 
   console.log(`Clientes disponíveis: ${limitedClients.length}`);
 
-  // prompt do vendedor
-  const sellerPrompt = readFileSync(
-    join(process.cwd(), "data", "agent-prompt.md"),
-    "utf-8"
-  );
-
-  // 2️⃣ rodar simulações em paralelo
+  // 3️⃣ rodar simulações em paralelo
 
   const simulations: SimulationOutput[] = await Promise.all(
 
@@ -87,7 +88,7 @@ async function runPipeline() {
 
   );
 
-  // 3️⃣ calcular metadata
+  // 4️⃣ calcular metadata
 
   const failedSimulations = simulations.filter(s => !s.success).length;
 
@@ -100,7 +101,7 @@ async function runPipeline() {
     }
   };
 
-  // 4️⃣ salvar resultado final
+  // 5️⃣ salvar resultado final
 
   const outputPath = join(process.cwd(), "data", "conversations.json");
 
@@ -117,4 +118,5 @@ async function runPipeline() {
 runPipeline().catch((err) => {
   console.error("Erro fatal no pipeline:");
   console.error(err);
+  process.exit(1);
 });

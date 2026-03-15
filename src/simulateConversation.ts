@@ -1,7 +1,8 @@
 console.log("ARQUIVO EXECUTADO");
+
 import "dotenv/config";
 import { generateText } from "ai";
-import { groq } from "@ai-sdk/groq";
+import { openai } from "@ai-sdk/openai";
 
 type Role = "seller" | "client";
 
@@ -18,7 +19,7 @@ export async function simulateConversation(
   maxMessages: number
 ) {
 
-  const model = groq("llama-3.1-8b-instant");
+  const model = openai("gpt-4o-mini");
 
   const conversation: Message[] = [];
 
@@ -60,6 +61,7 @@ export async function simulateConversation(
       role: "user",
       content: initialMessage
     });
+
   }
 
   let currentSpeaker: Role =
@@ -68,58 +70,78 @@ export async function simulateConversation(
   // loop da conversa
   while (conversation.length < maxMessages) {
 
-    if (currentSpeaker === "seller") {
+    try {
 
-      const { text } = await generateText({
-        model,
-        temperature: 0.7,
-        maxOutputTokens: 120,
-        messages: sellerHistory
-      });
+      if (currentSpeaker === "seller") {
 
-      conversation.push({
-        role: "seller",
-        message: text
-      });
+        const { text } = await generateText({
+          model,
+          temperature: 0.7,
+          maxOutputTokens: 120,
+          messages: sellerHistory
+        });
 
-      sellerHistory.push({
-        role: "assistant",
-        content: text
-      });
+        const message = text.trim();
 
-      clientHistory.push({
-        role: "user",
-        content: text
-      });
+        if (!message) break;
 
-      currentSpeaker = "client";
+        conversation.push({
+          role: "seller",
+          message
+        });
 
-    } else {
+        sellerHistory.push({
+          role: "assistant",
+          content: message
+        });
 
-      const { text } = await generateText({
-        model,
-        temperature: 1,
-        maxOutputTokens: 120,
-        messages: clientHistory
-      });
+        clientHistory.push({
+          role: "user",
+          content: message
+        });
 
-      conversation.push({
-        role: "client",
-        message: text
-      });
+        currentSpeaker = "client";
 
-      clientHistory.push({
-        role: "assistant",
-        content: text
-      });
+      } else {
 
-      sellerHistory.push({
-        role: "user",
-        content: text
-      });
+        const { text } = await generateText({
+          model,
+          temperature: 1,
+          maxOutputTokens: 120,
+          messages: clientHistory
+        });
 
-      currentSpeaker = "seller";
+        const message = text.trim();
+
+        if (!message) break;
+
+        conversation.push({
+          role: "client",
+          message
+        });
+
+        clientHistory.push({
+          role: "assistant",
+          content: message
+        });
+
+        sellerHistory.push({
+          role: "user",
+          content: message
+        });
+
+        currentSpeaker = "seller";
+      }
+
+    } catch (error) {
+
+      console.error("Erro durante geração da mensagem:");
+      console.error(error);
+
+      throw new Error("Falha ao gerar mensagem da conversa");
+
     }
+
   }
 
   return {
