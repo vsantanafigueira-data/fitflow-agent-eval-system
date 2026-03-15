@@ -1,42 +1,30 @@
-FitFlow Agent Eval System
-
-Sistema para geração de clientes fictícios, simulação de conversas com um agente de vendas e avaliação automática dessas conversas utilizando LLMs.
-
-O projeto implementa duas partes principais:
-
-Agent Tester — geração de clientes simulados e execução de conversas com o agente de vendas
-
-Conversation Judge — avaliação automática da qualidade das conversas geradas
-
-O objetivo é criar um ambiente automatizado para testar e analisar o comportamento de um agente de vendas baseado em LLM.
-
-Estrutura do Projeto
+⚙️ Estrutura do Projeto
 FITFLOW-AGENT-EVAL-SYSTEM
-
-data/
- ├ agent-prompt.md
- ├ clients.json
- ├ conversation.json
- ├ conversations.json
- └ evaluation-report.json
-
-src/
- ├ agent-tester/
- │   └ generateClients.ts
- │
- ├ eval/
- │   ├ judgeConversation.ts
- │   ├ judgeSchema.ts
- │   └ runEvaluation.ts
- │
- ├ simulateConversation.ts
- └ runPipeline.ts
-
-.env
-package.json
-tsconfig.json
-README.md
-Tecnologias Utilizadas
+│
+├─ data/
+│   ├ agent-prompt.md
+│   ├ clients.json
+│   ├ conversation.json
+│   ├ conversations.json
+│   └ evaluation-report.json
+│
+├─ src/
+│   ├ agent-tester/
+│   │   └ generateClients.ts
+│   │
+│   ├ eval/
+│   │   ├ judgeConversation.ts
+│   │   ├ judgeSchema.ts
+│   │   └ runEvaluation.ts
+│   │
+│   ├ simulateConversation.ts
+│   └ runPipeline.ts
+│
+├─ .env
+├─ package.json
+├─ tsconfig.json
+└─ README.md
+🛠 Tecnologias Utilizadas
 
 TypeScript
 
@@ -48,31 +36,28 @@ OpenAI GPT models
 
 Zod (validação de outputs estruturados)
 
-dotenv
+dotenv (variáveis de ambiente)
 
-O projeto utiliza LLMs para gerar dados de teste e avaliar conversas, e Zod para garantir que os outputs retornados estejam em formato JSON válido.
+O projeto utiliza LLMs para gerar dados de teste e avaliar conversas, e Zod para garantir que os outputs retornados estejam sempre em formato JSON válido.
 
-Parte 1 — Agent Tester
+🟢 Parte 1 — Agent Tester
 
-A primeira parte do sistema gera clientes simulados e executa conversas entre o cliente e o agente de vendas.
+Responsável por gerar clientes simulados e executar conversas entre o cliente e o agente de vendas.
 
 Geração de Clientes Fictícios
 
-Arquivo:
-
-src/agent-tester/generateClients.ts
-
-Este módulo gera personas de clientes fictícios que serão utilizadas para testar o agente de vendas.
+Arquivo: src/agent-tester/generateClients.ts
 
 Cada cliente contém:
 
-name
+name — nome do cliente
 
-description
+description — perfil resumido
 
-prompt
+prompt — prompt usado para guiar a conversa
 
-Exemplo de estrutura gerada
+Exemplo:
+
 {
   "clients": [
     {
@@ -82,12 +67,7 @@ Exemplo de estrutura gerada
     }
   ]
 }
-
-Os clientes são gerados utilizando um meta-prompt enviado para um modelo LLM.
-
 Arquétipos de Clientes
-
-O sistema define um conjunto de perfis para garantir diversidade nos leads gerados:
 
 Lead altamente interessado
 
@@ -103,89 +83,52 @@ Lead ocupado
 
 Lead em fase de pesquisa
 
-Esses perfis ajudam a testar o agente em diferentes cenários de vendas.
+Isso garante diversidade nos leads e permite testar o agente em múltiplos cenários de vendas.
 
 Validação do Output
-
-O output da geração de clientes é validado utilizando Zod.
-
-Schema utilizado:
-
 const ClientSchema = z.object({
   name: z.string(),
   description: z.string(),
   prompt: z.string(),
 });
 
-Isso garante que o JSON gerado pelo modelo esteja no formato esperado.
+Garante que o JSON gerado pelo LLM esteja sempre no formato esperado.
 
 Simulação de Conversas
 
-Arquivo utilizado pelo pipeline:
+Arquivo: src/simulateConversation.ts
 
-src/simulateConversation.ts
+Simula uma conversa entre o agente de vendas e o cliente fictício
 
-Este módulo é responsável por simular uma conversa entre:
+Cada cliente usa seu prompt como system prompt
 
-o agente de vendas
-
-um cliente fictício
-
-Cada cliente utiliza o prompt gerado anteriormente como system prompt.
-
-A conversa é executada com:
-
-mensagem inicial
-
-agente inicial (client ou seller)
-
-limite máximo de mensagens
+Limita o número de mensagens por conversa
 
 Pipeline de Simulação
 
-Arquivo principal:
+Arquivo: src/runPipeline.ts
 
-src/runPipeline.ts
+Fluxo completo:
 
-Este script executa o fluxo completo de simulação.
-
-Fluxo do pipeline
-
-Ler o prompt do agente de vendas (agent-prompt.md)
+Ler o prompt do agente (agent-prompt.md)
 
 Gerar clientes fictícios
 
 Simular conversas com cada cliente
 
-Salvar os resultados
+Salvar resultados em data/conversations.json
 
 Parâmetros do Pipeline
+Parâmetro	Descrição	Padrão
+clients	Número de clientes fictícios a gerar	5
+maxMessages	Número máximo de mensagens por conversa	12
+starter	Quem inicia a conversa (client ou seller)	client
+initialMessage	Mensagem inicial da conversa	"Oi! Vi o anúncio e queria saber mais."
 
-O pipeline aceita os seguintes parâmetros via CLI:
+Exemplo de execução:
 
-node src/runPipeline.ts <clients> <maxMessages> <starter> <initialMessage>
-Parâmetros
-Parâmetro	Descrição
-clients	número de clientes fictícios a gerar
-maxMessages	número máximo de mensagens por conversa
-starter	quem inicia a conversa (client ou seller)
-initialMessage	mensagem inicial da conversa
-Valores padrão
-
-clientes: 5
-
-máximo de mensagens: 12
-
-iniciador: client
-
-mensagem inicial: "Oi! Vi o anúncio e queria saber mais."
-
+node src/runPipeline.ts 5 12 client "Oi! Vi o anúncio e queria saber mais."
 Output do Pipeline
-
-Após a execução, o pipeline gera:
-
-data/conversations.json
-Estrutura do output
 {
   "simulations": [
     {
@@ -202,90 +145,76 @@ Estrutura do output
   }
 }
 
-Se uma simulação falhar, o erro é registrado e as demais continuam executando.
+Simulações com falha são registradas, mas não interrompem o pipeline.
 
-Parte 2 — Avaliação das Conversas
+🔵 Parte 2 — Avaliação das Conversas
 
-O sistema também inclui um módulo para avaliar conversas usando um LLM como juiz.
+O sistema também inclui um módulo que avalia automaticamente as conversas usando LLMs.
 
 Juiz de Conversas
 
-Arquivo:
+Arquivo: src/eval/judgeConversation.ts
 
-src/eval/judgeConversation.ts
+Recebe o prompt do agente e a conversa gerada
 
-Esse módulo recebe:
-
-o prompt do agente
-
-a conversa gerada
-
-e retorna uma avaliação estruturada.
+Retorna uma avaliação estruturada
 
 Critérios de Avaliação
+Critério	Descrição
+adherence_to_prompt	Seguiu corretamente as instruções do prompt
+product_accuracy	Informações do produto estão corretas
+price_accuracy	Preço informado está correto
+conversation_quality	Conversa natural e fluida
+sales_effectiveness	Conduz à conversão de forma eficaz
+rule_compliance	Seguiu regras e evitou comportamentos proibidos
 
-As conversas são avaliadas usando os seguintes critérios:
+Nota de 0 a 10 por critério
 
-adherence_to_prompt
+Justificativa curta para cada avaliação
 
-Avalia se o agente seguiu corretamente as instruções do prompt.
+Validação: Zod garante formato consistente (JudgeSchema)
 
-product_accuracy
-
-Verifica se as informações do produto fornecidas estão corretas.
-
-price_accuracy
-
-Avalia se os preços mencionados são corretos.
-
-conversation_quality
-
-Analisa se a conversa é natural e fluida.
-
-sales_effectiveness
-
-Avalia se o agente conduz a conversa para uma possível conversão.
-
-rule_compliance
-
-Verifica se o agente evitou comportamentos proibidos.
-
-Output do Juiz
-
-O juiz retorna:
-
-nota de 0 a 10 para cada critério
-
-justificativa curta
-
-O output é validado usando Zod schema (JudgeSchema).
-
-Como Executar o Projeto
-1. Instalar dependências
-npm install
-2. Configurar variáveis de ambiente
-
-Criar um arquivo .env:
-
-OPENAI_API_KEY=your_key_here
-3. Executar o pipeline
-node src/runPipeline.ts
-
-Ou com parâmetros:
-
-node src/runPipeline.ts 5 12 client
 Arquivos Gerados
 
-Após a execução, os seguintes arquivos são criados:
-
 data/clients.json
+
 data/conversation.json
-Observações
 
-O sistema atual implementa:
+data/evaluation-report.json
 
-geração automática de clientes fictícios
+O relatório final inclui médias por critério, ranking de conversas, melhor e pior simulação.
 
-simulação de conversas com o agente
+⚡ Como Executar o Projeto
 
-módulo de avaliação de conversas com LLM
+Instalar dependências:
+
+npm install
+
+Configurar variáveis de ambiente criando .env:
+
+OPENAI_API_KEY=your_key_here
+
+Executar pipeline completo:
+
+node src/runPipeline.ts
+
+Opcional: passar parâmetros CLI para personalizar o número de clientes, mensagens e mensagem inicial.
+
+Avaliar conversas:
+
+node src/eval/runEvaluation.ts
+
+O output será data/evaluation-report.json com todos os resultados consolidados.
+
+✨ Objetivo Final
+
+Criar um ciclo automatizado de teste e avaliação de agentes de vendas LLM, permitindo:
+
+Medir qualidade de conversas e desempenho de vendas
+
+Identificar pontos fortes e áreas de melhoria
+
+Treinar agentes de forma objetiva e escalável
+
+Considerações finais e explicações de decisões:
+Inicialmente, comecei utilizando o cursor, todavia, o free tier se esgotou rapidamente e parti para outras IA's.
