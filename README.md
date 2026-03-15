@@ -196,13 +196,13 @@ OPENAI_API_KEY=your_key_here
 
 Executar pipeline completo:
 
-node src/runPipeline.ts
+npx tsx src/runPipeline.ts 5 12 client "Oi! Vi o anúncio e queria saber mais."
 
 Opcional: passar parâmetros CLI para personalizar o número de clientes, mensagens e mensagem inicial.
 
 Avaliar conversas:
 
-node src/eval/runEvaluation.ts
+npx tsx src/eval/runEvaluation.ts
 
 O output será data/evaluation-report.json com todos os resultados consolidados.
 
