@@ -217,4 +217,13 @@ Identificar pontos fortes e áreas de melhoria
 Treinar agentes de forma objetiva e escalável
 
 Considerações finais e explicações de decisões:
+
 Inicialmente, comecei utilizando o cursor, todavia, o free tier se esgotou rapidamente e parti para outras IA's.
+Utilizei apenas o ChatGPT após o cursor e usei de forma bem semelhante, apenas guiando a IA a gerar o código e fazendo debugs.
+Não realizei muitas iterações nos prompts, fiz diversas alterações nos meta prompts, pedindo pra melhorar de acordo com o que foi pedido de estrutura no desafio e finalizava quando sentia que fazia total sentido com o projeto.
+
+Rodei o pipeline diversas vezes até perceber que estava contente com o conteúdo gerado, além disso, pedi dicas e analisei se fazia sentido para as avaliações do judge, para assim, chegar em critérios ótimos que correlacionavam com o mercado em questão (fit).
+
+Percebi que pequei muito na parte da criatividade, o meu foco desde o princípio era entender rapidamente sobre a utilização da LLM e da linguagem, focando em entregar um MVP, porém, não demonstrei meu raciocínio próprio de forma explícita, além de utilizar de forma bem simples as IA's generativas.
+
+Acredito que os próximos passos após a análise do framework, seria instalar uma variação dinâmica de comportamento, onde o cliente muda de opinião durante a conversa, adicionar variávies da própria persona, idade, cidade, forma de conversa, conseguindo converter melhor esse lead a partir do contexto total, e por fim, gerar um histórico do agente para acompanhar a melhora/piora do seu desempenho, acredito que isso seria o mais valioso para se trazer.
