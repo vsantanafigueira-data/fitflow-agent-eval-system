@@ -1,109 +1,109 @@
 {
   "clients": [
     {
-      "name": "Maria Silva",
-      "description": "Lead muito interessada",
-      "prompt": "Oi, eu sou Maria! Estou procurando algo para me ajudar a perder peso. Você tem alguma recomendação?"
+      "name": "Ana",
+      "description": "Lead altamente interessada",
+      "prompt": "Oi, estou procurando um plano de treino e nutrição para perder peso. Você pode me ajudar com isso?"
     },
     {
-      "name": "João Pedro",
+      "name": "Pedro",
       "description": "Lead curioso",
-      "prompt": "E aí, Mel? Qual é a melhor forma de treinar em casa para perder peso? Eu não tenho muito tempo para ir à academia."
+      "prompt": "Olá, estou interessado em saber mais sobre o FitFlow. O que é que ele oferece exatamente?"
     },
     {
-      "name": "Ana Luiza",
+      "name": "Lucas",
       "description": "Lead com objeção de preço",
-      "prompt": "Oi, Mel! Eu estou interessada no FitFlow, mas o preço é um pouco alto para mim. Existem alguma forma de parcelamento ou desconto?"
+      "prompt": "Oi, o preço do plano trimestral parece um pouco alto para mim. Você tem alguma forma de desconto?"
     },
     {
-      "name": "Pedro Henrique",
+      "name": "Giovana",
       "description": "Lead desconfiado",
-      "prompt": "E aí, Mel? Você pode me dizer se o FitFlow realmente funciona? Eu tenho alguma dúvida sobre a segurança e a eficácia."
+      "prompt": "Estou interessado em saber se o FitFlow realmente funciona. Você tem algum estudo ou depoimento que possa me ajudar a decidir?"
     },
     {
-      "name": "Luana Souza",
-      "description": "Lead que já é cliente",
-      "prompt": "Oi, Mel! Eu sou uma cliente do FitFlow há alguns meses e estou procurando saber como posso trocar de plano. Posso fazer isso?"
+      "name": "João",
+      "description": "Lead cliente atual",
+      "prompt": "Oi, estou precisando de ajuda para trocar de plano. Posso fazer isso agora ou preciso esperar o final do meu atual?"
     },
     {
-      "name": "Gustavo Lima",
-      "description": "Lead que não tem tempo",
-      "prompt": "Oi, Mel! Eu estou muito ocupado e não tenho tempo para treinar em casa. Você pode me dizer se o FitFlow é fácil de usar?"
+      "name": "Maria",
+      "description": "Lead ocupado",
+      "prompt": "Oi, estou muito ocupado agora. Posso falar com você mais tarde ou você pode me enviar informações por e-mail?"
     },
     {
-      "name": "Beatriz Ferreira",
-      "description": "Lead que só está pesquisando",
-      "prompt": "E aí, Mel? Qual é a diferença entre o FitFlow e outras plataformas de treino? Eu estou procurando saber mais sobre as opções disponíveis."
+      "name": "Carlos",
+      "description": "Lead em fase de pesquisa",
+      "prompt": "Olá, estou procurando informações sobre planos de treino e nutrição. Você pode me recomendar alguma coisa?"
     },
     {
-      "name": "Rafael Santos",
-      "description": "Lead muito interessado",
-      "prompt": "Oi, Mel! Eu estou muito interessado no FitFlow. Você pode me dizer mais sobre os planos e preços?"
+      "name": "Beatriz",
+      "description": "Lead altamente interessada",
+      "prompt": "Oi, estou procurando um plano de treino e nutrição para melhorar minha saúde. Você pode me ajudar a encontrar algo que atenda às minhas necessidades?"
     },
     {
-      "name": "Thais Lima",
+      "name": "Rafael",
       "description": "Lead curioso",
-      "prompt": "E aí, Mel? Qual é a melhor forma de treinar para melhorar a condicionamento física? Eu estou procurando algo para melhorar minha saúde."
+      "prompt": "Olá, estou interessado em saber mais sobre a comunidade do FitFlow. O que é que ela oferece exatamente?"
     },
     {
-      "name": "Daniel Oliveira",
+      "name": "Tatiana",
       "description": "Lead com objeção de preço",
-      "prompt": "Oi, Mel! Eu estou interessado no FitFlow, mas o preço é um pouco alto para mim. Existem alguma forma de parcelamento ou desconto?"
+      "prompt": "Oi, o preço do plano anual parece um pouco alto para mim. Você tem alguma forma de desconto?"
     },
     {
-      "name": "Gabriela Souza",
+      "name": "Luiz",
       "description": "Lead desconfiado",
-      "prompt": "E aí, Mel? Você pode me dizer se o FitFlow realmente funciona? Eu tenho alguma dúvida sobre a segurança e a eficácia."
+      "prompt": "Estou interessado em saber se o FitFlow realmente é seguro. Você tem algum estudo ou depoimento que possa me ajudar a decidir?"
     },
     {
-      "name": "Lucas Silva",
-      "description": "Lead que já é cliente",
-      "prompt": "Oi, Mel! Eu sou uma cliente do FitFlow há alguns meses e estou procurando saber como posso trocar de plano. Posso fazer isso?"
+      "name": "Isabel",
+      "description": "Lead cliente atual",
+      "prompt": "Oi, estou precisando de ajuda para cancelar meu plano. Posso fazer isso agora ou preciso esperar o final do meu atual?"
     },
     {
-      "name": "Isabella Lima",
-      "description": "Lead que não tem tempo",
-      "prompt": "Oi, Mel! Eu estou muito ocupado e não tenho tempo para treinar em casa. Você pode me dizer se o FitFlow é fácil de usar?"
+      "name": "Fernando",
+      "description": "Lead ocupado",
+      "prompt": "Oi, estou muito ocupado agora. Posso falar com você mais tarde ou você pode me enviar informações por e-mail?"
     },
     {
-      "name": "Mateus Santos",
-      "description": "Lead que só está pesquisando",
-      "prompt": "E aí, Mel? Qual é a diferença entre o FitFlow e outras plataformas de treino? Eu estou procurando saber mais sobre as opções disponíveis."
+      "name": "Camila",
+      "description": "Lead em fase de pesquisa",
+      "prompt": "Olá, estou procurando informações sobre planos de treino e nutrição. Você pode me recomendar alguma coisa?"
     },
     {
-      "name": "Julia Ferreira",
-      "description": "Lead muito interessado",
-      "prompt": "Oi, Mel! Eu estou muito interessado no FitFlow. Você pode me dizer mais sobre os planos e preços?"
+      "name": "Mateus",
+      "description": "Lead altamente interessada",
+      "prompt": "Oi, estou procurando um plano de treino e nutrição para melhorar minha saúde. Você pode me ajudar a encontrar algo que atenda às minhas necessidades?"
     },
     {
-      "name": "João Vitor",
+      "name": "Julia",
       "description": "Lead curioso",
-      "prompt": "E aí, Mel? Qual é a melhor forma de treinar para melhorar a condicionamento física? Eu estou procurando algo para melhorar minha saúde."
+      "prompt": "Olá, estou interessado em saber mais sobre a IA do FitFlow. O que é que ela faz exatamente?"
     },
     {
-      "name": "Ana Clara",
+      "name": "Pedro",
       "description": "Lead com objeção de preço",
-      "prompt": "Oi, Mel! Eu estou interessada no FitFlow, mas o preço é um pouco alto para mim. Existem alguma forma de parcelamento ou desconto?"
+      "prompt": "Oi, o preço do plano trimestral parece um pouco alto para mim. Você tem alguma forma de desconto?"
     },
     {
-      "name": "Pedro Miguel",
+      "name": "Giovana",
       "description": "Lead desconfiado",
-      "prompt": "E aí, Mel? Você pode me dizer se o FitFlow realmente funciona? Eu tenho alguma dúvida sobre a segurança e a eficácia."
+      "prompt": "Estou interessado em saber se o FitFlow realmente funciona. Você tem algum estudo ou depoimento que possa me ajudar a decidir?"
     },
     {
-      "name": "Luana Andrade",
-      "description": "Lead que já é cliente",
-      "prompt": "Oi, Mel! Eu sou uma cliente do FitFlow há alguns meses e estou procurando saber como posso trocar de plano. Posso fazer isso?"
+      "name": "João",
+      "description": "Lead cliente atual",
+      "prompt": "Oi, estou precisando de ajuda para trocar de plano. Posso fazer isso agora ou preciso esperar o final do meu atual?"
     },
     {
-      "name": "Gustavo Henrique",
-      "description": "Lead que não tem tempo",
-      "prompt": "Oi, Mel! Eu estou muito ocupado e não tenho tempo para treinar em casa. Você pode me dizer se o FitFlow é fácil de usar?"
+      "name": "Maria",
+      "description": "Lead ocupado",
+      "prompt": "Oi, estou muito ocupado agora. Posso falar com você mais tarde ou você pode me enviar informações por e-mail?"
     },
     {
-      "name": "Beatriz Alves",
-      "description": "Lead que só está pesquisando",
-      "prompt": "E aí, Mel? Qual é a diferença entre o FitFlow e outras plataformas de treino? Eu estou procurando saber mais sobre as opções disponíveis."
+      "name": "Carlos",
+      "description": "Lead em fase de pesquisa",
+      "prompt": "Olá, estou procurando informações sobre planos de treino e nutrição. Você pode me recomendar alguma coisa?"
     }
   ]
 }
