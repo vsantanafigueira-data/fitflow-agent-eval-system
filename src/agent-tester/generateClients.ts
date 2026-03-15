@@ -1,25 +1,25 @@
 /**
  * Gera personas de clientes fictícios para testar o agente de vendas.
- * Usa Vercel AI SDK (generateText + Output.object) e Zod para o schema.
+ * Usa Vercel AI SDK + Groq e valida com Zod.
  */
 
 import "dotenv/config";
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { generateText, Output } from "ai";
-import { openai } from "@ai-sdk/openai";
+import { generateText } from "ai";
+import { groq } from "@ai-sdk/groq";
 import { z } from "zod";
 
 // --- Schema Zod (estrutura do output) ---
 
 const ClientSchema = z.object({
-  name: z.string().describe("Nome da persona do cliente"),
-  description: z.string().describe("Descrição breve do perfil (idade, contexto, objetivos)"),
-  prompt: z.string().describe("Instrução ou primeira mensagem que esse cliente usaria ao falar com o vendedor"),
+  name: z.string(),
+  description: z.string(),
+  prompt: z.string(),
 });
 
 const ClientsOutputSchema = z.object({
-  clients: z.array(ClientSchema).describe("Lista de personas de clientes fictícios"),
+  clients: z.array(ClientSchema),
 });
 
 type ClientsOutput = z.infer<typeof ClientsOutputSchema>;
@@ -58,72 +58,92 @@ function buildClientGenerationPrompt(
   agentPrompt: string,
   count: number
 ): { system: string; prompt: string } {
-  const system = `Você gera personas de LEADS fictícios para testar um agente de vendas. Cada lead deve ser realista e se encaixar em um dos perfis abaixo.
+  const system = `Você gera personas de LEADS fictícios para testar um agente de vendas.
 
-## Perfis de lead (escolha e varie entre eles)
-
+Perfis possíveis:
 ${LEAD_ARCHETYPES.map((a, i) => `${i + 1}. ${a}`).join("\n")}
 
-## Comportamento realista
+Comportamento:
+- Fale como pessoa real em chat (WhatsApp).
+- Use linguagem natural.
+- Seja diverso nos perfis.
 
-- Fala como pessoa real em chat (ex.: WhatsApp): tom natural, às vezes abreviações, emojis com moderação.
-- Cada perfil age de acordo com seu tipo: o desconfiado questiona; o com objeção de preço puxa o assunto custo; o sem tempo responde curto; o que só pesquisa evita compromisso.
-- Nome e contexto (idade, profissão, situação) devem combinar com o perfil e o produto.
-- O campo "prompt" deve ser a primeira mensagem que esse lead mandaria ao vendedor OU uma instrução curta de como ele se comporta na conversa (ex.: "Diz que viu o anúncio, pergunta quanto custa e se pode parcelar").
+IMPORTANTE:
+Responda APENAS com JSON válido.
+Não escreva explicações.
 
-## Campos de saída
+Formato esperado:
 
-- name: nome da pessoa (nome e sobrenome realistas).
-- description: uma linha com perfil + tipo de lead (ex.: "João, 34 anos, quer emagrecer. Lead curioso.").
-- prompt: primeira mensagem do lead OU guia de comportamento em 1–2 frases (o que ele diz/faz no início da conversa).`;
+{
+  "clients": [
+    {
+      "name": "string",
+      "description": "string",
+      "prompt": "string"
+    }
+  ]
+}`;
 
-  const prompt = `Contexto do agente de vendas e do produto (use para criar leads que fariam sentido nesse canal/produto):
+  const prompt = `Contexto do agente:
 
 ---
 ${agentPrompt}
 ---
 
-Gere exatamente ${count} leads fictícios. Varie os perfis: inclua pelo menos um de cada tipo que couber (interessado, curioso, objeção de preço, desconfiado, já cliente, sem tempo, só pesquisando). Priorize diversidade e realismo.`;
+Gere exatamente ${count} clientes fictícios.
+Varie os perfis e seja realista.`;
+
   return { system, prompt };
 }
 
 // --- Geração com AI SDK ---
 
-/**
- * Gera N clientes fictícios diversos usando o modelo e o prompt do agente como contexto.
- */
 export async function generateClients(
   agentPrompt: string,
   count: number
 ): Promise<ClientsOutput> {
-  const model = openai("gpt-4o-mini");
+
+  const model = groq("llama-3.1-8b-instant");
 
   const metaPrompt = buildClientGenerationPrompt(agentPrompt, count);
 
-  const { output } = await generateText({
+  const { text } = await generateText({
     model,
-    output: Output.object({
-      schema: ClientsOutputSchema,
-      name: "clients",
-      description: "Lista de personas de clientes fictícios para testar o agente de vendas",
-    }),
+    temperature: 0.7,
+    maxOutputTokens: 1500,
     ...metaPrompt,
   });
 
-  return output as ClientsOutput;
+  let parsed;
+
+  try {
+    parsed = JSON.parse(text);
+  } catch {
+    throw new Error("Modelo não retornou JSON válido:\n" + text);
+  }
+
+  return ClientsOutputSchema.parse(parsed);
 }
 
-// --- Script (quando executado diretamente) ---
+// --- Script principal ---
 
 async function main(): Promise<void> {
+
   const count = Math.min(Math.max(1, Number(process.argv[2]) || 5), 20);
+
   const agentPrompt = readAgentPrompt();
+
+  console.log(`Gerando ${count} clientes fictícios...`);
+
   const data = await generateClients(agentPrompt, count);
+
   saveClients(data);
+
   console.log(`Gerados ${data.clients.length} clientes em data/clients.json`);
 }
 
 main().catch((err) => {
+  console.error("Erro ao gerar clientes:");
   console.error(err);
   process.exit(1);
 });
