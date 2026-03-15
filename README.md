@@ -16,8 +16,9 @@ FITFLOW-AGENT-EVAL-SYSTEM
 data/
  ├ agent-prompt.md
  ├ clients.json
+ ├ conversation.json
  ├ conversations.json
- └ results/
+ └ evaluation-report.json
 
 src/
  ├ agent-tester/
@@ -25,7 +26,8 @@ src/
  │
  ├ eval/
  │   ├ judgeConversation.ts
- │   └ judgeSchema.ts
+     ├ judgeSchema.ts   
+ │   └ runEvaluation.ts
  │
  ├ simulateConversation.ts
  └ runPipeline.ts
@@ -34,6 +36,7 @@ src/
 package.json
 tsconfig.json
 README.md
+
 Tecnologias Utilizadas
 
 TypeScript
@@ -285,7 +288,9 @@ Arquivos Gerados
 Após a execução, os seguintes arquivos são criados:
 
 data/clients.json
-data/conversations.json
+data/conversation.json
+
+
 Observações
 
 O sistema atual implementa:
@@ -295,5 +300,3 @@ geração automática de clientes fictícios
 simulação de conversas com o agente
 
 módulo de avaliação de conversas com LLM
-
-Esses componentes permitem criar um ambiente automatizado de testes para agentes conversacionais.
