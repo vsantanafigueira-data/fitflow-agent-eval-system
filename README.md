@@ -2,23 +2,23 @@
 FITFLOW-AGENT-EVAL-SYSTEM
 │
 ├─ data/
-│   ├ agent-prompt.md
-│   ├ clients.json
-│   ├ conversation.json
-│   ├ conversations.json
-│   └ evaluation-report.json
+│ ├ agent-prompt.md
+│ ├ clients.json
+│ ├ conversation.json
+│ ├ conversations.json
+│ └ evaluation-report.json
 │
 ├─ src/
-│   ├ agent-tester/
-│   │   └ generateClients.ts
-│   │
-│   ├ eval/
-│   │   ├ judgeConversation.ts
-│   │   ├ judgeSchema.ts
-│   │   └ runEvaluation.ts
-│   │
-│   ├ simulateConversation.ts
-│   └ runPipeline.ts
+│ ├ agent-tester/
+│ │ └ generateClients.ts
+│ │
+│ ├ eval/
+│ │ ├ judgeConversation.ts
+│ │ ├ judgeSchema.ts
+│ │ └ runEvaluation.ts
+│ │
+│ ├ simulateConversation.ts
+│ └ runPipeline.ts
 │
 ├─ .env
 ├─ package.json
