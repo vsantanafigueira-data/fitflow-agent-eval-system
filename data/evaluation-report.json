@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "totalEvaluations": 10,
+    "averageScores": {
+      "adherence_to_prompt": 8.7,
+      "product_accuracy": 9.7,
+      "price_accuracy": 9.2,
+      "conversation_quality": 8.6,
+      "sales_effectiveness": 8.1,
+      "rule_compliance": 9.6
+    }
+  },
+  "bestConversation": {
+    "clientName": "João",
+    "score": 9.333333333333334
+  },
+  "worstConversation": {
+    "clientName": "Lucas",
+    "score": 7.833333333333333
+  },
+  "ranking": [
+    {
+      "clientName": "João",
+      "score": 9.333333333333334
+    },
+    {
+      "clientName": "Carlos",
+      "score": 9.333333333333334
+    },
+    {
+      "clientName": "Patrícia",
+      "score": 9.333333333333334
+    },
+    {
+      "clientName": "Juliana",
+      "score": 9.333333333333334
+    },
+    {
+      "clientName": "Ricardo",
+      "score": 9.333333333333334
+    },
+    {
+      "clientName": "Ana",
+      "score": 9.166666666666666
+    },
+    {
+      "clientName": "Felipe",
+      "score": 9.166666666666666
+    },
+    {
+      "clientName": "Sofia",
+      "score": 8.833333333333334
+    },
+    {
+      "clientName": "Maria",
+      "score": 8.166666666666666
+    },
+    {
+      "clientName": "Lucas",
+      "score": 7.833333333333333
+    }
+  ],
+  "detailedResults": [
+    {
+      "clientName": "João",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 10,
+        "reasoning": "A conversa foi bem conduzida, com o agente seguindo a personalidade e as diretrizes do prompt. As informações sobre o produto e os preços estavam corretas e apresentadas de forma clara. A conversa fluiu naturalmente, com o uso adequado de emojis e uma abordagem amigável. O agente fez um bom trabalho em responder às perguntas do cliente e em manter o interesse, embora pudesse ter tentado fechar a venda de forma mais assertiva. Não houve comportamentos proibidos, e o agente respeitou as regras de comunicação."
+      }
+    },
+    {
+      "clientName": "Maria",
+      "evaluation": {
+        "adherence_to_prompt": 8,
+        "product_accuracy": 9,
+        "price_accuracy": 8,
+        "conversation_quality": 7,
+        "sales_effectiveness": 8,
+        "rule_compliance": 9,
+        "reasoning": "A agente Mel seguiu a maior parte das diretrizes do prompt, mas houve algumas repetições desnecessárias nas respostas, o que prejudicou a fluidez da conversa. As informações sobre o produto e os preços estavam corretas, mas a confusão inicial sobre o preço do plano anual poderia ter sido evitada. A conversa foi amigável e envolvente, e Mel fez um bom trabalho em manter o cliente interessado, mas poderia ter sido mais concisa em algumas partes."
+      }
+    },
+    {
+      "clientName": "Lucas",
+      "evaluation": {
+        "adherence_to_prompt": 8,
+        "product_accuracy": 9,
+        "price_accuracy": 6,
+        "conversation_quality": 7,
+        "sales_effectiveness": 8,
+        "rule_compliance": 9,
+        "reasoning": "A conversa seguiu a maior parte das diretrizes do prompt, mas houve confusão nos valores do plano anual, o que impactou a precisão dos preços. As informações sobre o produto foram corretas e o agente manteve um tom descontraído e amigável, mas a repetição de correções nos valores prejudicou a fluidez da conversa. O agente foi eficaz em conduzir a conversa para uma possível conversão, respeitando as regras de não insistir quando o cliente não estava pronto."
+      }
+    },
+    {
+      "clientName": "Ana",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 9,
+        "reasoning": "A conversa foi bem conduzida, com a agente seguindo a personalidade e as diretrizes do prompt. As informações sobre o produto e preços estavam corretas e apresentadas de forma clara. A qualidade da conversa foi natural e fluida, embora a agente pudesse ter feito um esforço maior para personalizar a interação chamando o cliente pelo nome. A eficácia de vendas foi boa, mas poderia ter sido melhor se a agente tivesse feito uma transição mais direta para o fechamento da venda. A conformidade com as regras foi alta, com a agente evitando comportamentos proibidos."
+      }
+    },
+    {
+      "clientName": "Carlos",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 10,
+        "reasoning": "A conversa foi bem conduzida, com a agente seguindo a personalidade e as diretrizes do prompt. As informações sobre o produto e os preços estavam corretas e apresentadas de forma clara. A conversa fluiu naturalmente, com a agente utilizando uma linguagem descontraída e amigável. A eficácia de vendas foi boa, mas poderia ter sido melhor se a agente tivesse feito uma pergunta mais direta sobre a intenção de compra após apresentar os detalhes do plano. Não houve comportamentos proibidos, e a agente respeitou as regras de comunicação."
+      }
+    },
+    {
+      "clientName": "Patrícia",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 10,
+        "reasoning": "A conversa foi bem conduzida, com o agente seguindo as diretrizes do prompt. As informações sobre os produtos e preços estavam corretas e apresentadas de forma clara. A qualidade da conversa foi natural e fluida, com o uso adequado de gírias e emojis. O agente foi eficaz em conduzir o cliente em direção à conversão, embora pudesse ter reforçado mais a urgência ou os benefícios da assinatura. Não houve comportamentos proibidos, e o agente respeitou as regras de interação."
+      }
+    },
+    {
+      "clientName": "Felipe",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 8,
+        "conversation_quality": 9,
+        "sales_effectiveness": 9,
+        "rule_compliance": 10,
+        "reasoning": "A conversa foi bem conduzida, com o agente seguindo a personalidade e as diretrizes do prompt. As informações sobre o produto e os preços estavam corretas, embora a mensagem final tenha sido cortada, o que pode ter impactado a clareza. A interação foi natural e fluida, e o agente demonstrou eficácia em guiar o cliente em direção à conversão, respeitando as regras e evitando comportamentos proibidos."
+      }
+    },
+    {
+      "clientName": "Juliana",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 10,
+        "reasoning": "A conversa foi bem conduzida, com o agente seguindo a personalidade e as diretrizes do prompt. As informações sobre os produtos e preços estavam corretas e apresentadas de forma clara. A qualidade da conversa foi natural e fluida, com o uso adequado de emojis e uma abordagem amigável. O agente foi eficaz em conduzir o cliente em direção à conversão, mas poderia ter reforçado mais a urgência ou benefícios da assinatura. Não houve comportamentos proibidos, e o agente respeitou as regras de comunicação."
+      }
+    },
+    {
+      "clientName": "Ricardo",
+      "evaluation": {
+        "adherence_to_prompt": 9,
+        "product_accuracy": 10,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 10,
+        "reasoning": "A conversa foi bem conduzida, com o agente seguindo a personalidade e as diretrizes do prompt. As informações sobre o produto e os preços estavam corretas e apresentadas de forma clara. A interação foi natural e fluida, com o uso adequado de emojis e gírias. O agente fez perguntas relevantes e respeitou o interesse do cliente, mas poderia ter reforçado mais a urgência ou os benefícios de escolher um plano. No geral, a conversa foi eficaz e dentro das regras."
+      }
+    },
+    {
+      "clientName": "Sofia",
+      "evaluation": {
+        "adherence_to_prompt": 8,
+        "product_accuracy": 9,
+        "price_accuracy": 10,
+        "conversation_quality": 9,
+        "sales_effectiveness": 8,
+        "rule_compliance": 9,
+        "reasoning": "A conversa foi bastante fluida e natural, com o agente seguindo a personalidade e as diretrizes do prompt. As informações sobre o produto e os preços estavam corretas e bem apresentadas. O agente fez perguntas relevantes e manteve o interesse do cliente, mas poderia ter sido um pouco mais assertivo em direcionar para a conversão. No geral, a interação foi positiva e respeitou as regras estabelecidas."
+      }
+    }
+  ]
+}

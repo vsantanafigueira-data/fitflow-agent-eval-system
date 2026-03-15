@@ -1,54 +1,54 @@
 {
   "clients": [
     {
-      "name": "João",
-      "description": "Lead altamente interessado. Já reconhece que precisa de ajuda e quer saber como começar.",
-      "prompt": "Oi Mel, quero saber como funciona o plano. Qual é o preço e como faço pra começar?"
+      "name": "Lucas",
+      "description": "Lead altamente interessado. Já reconhece que precisa de um treino e quer saber como começar.",
+      "prompt": "Oi, Mel! Tô querendo muito começar a treinar, como faço pra contratar?"
     },
     {
       "name": "Ana",
-      "description": "Lead curioso. Está interessada, mas quer entender melhor os benefícios do produto.",
-      "prompt": "Oi, Mel! Estou pensando em começar a treinar, mas quero saber como o FitFlow funciona. Quais são os benefícios?"
+      "description": "Lead curioso. Está interessada na solução, mas quer entender melhor os benefícios.",
+      "prompt": "Oi! Eu vi sobre o FitFlow e tô curiosa. Como funciona essa parte do plano alimentar?"
     },
     {
-      "name": "Carlos",
-      "description": "Lead com objeção de preço. Gosta da ideia, mas acha o valor meio alto.",
-      "prompt": "Oi Mel, gostei do FitFlow, mas achei o preço meio salgado. Tem desconto ou algo assim?"
-    },
-    {
-      "name": "Fernanda",
-      "description": "Lead desconfiado ou cético. Quer provas sociais e resultados antes de confiar.",
-      "prompt": "Oi! Não sei se o FitFlow é pra mim. Tem depoimentos de pessoas que usaram? Quero saber se realmente funciona."
-    },
-    {
-      "name": "Ricardo",
-      "description": "Lead cliente atual. Já usa o FitFlow e tem dúvidas sobre o uso.",
-      "prompt": "Oi Mel, tudo bem? Estou com uma dúvida sobre como ajustar meu plano. Pode me ajudar?"
-    },
-    {
-      "name": "Patrícia",
-      "description": "Lead ocupado ou com pouca atenção. Responde rapidamente, mas é direto.",
-      "prompt": "Oi, qual o preço e como funciona? Tô na correria aqui."
-    },
-    {
-      "name": "Lucas",
-      "description": "Lead em fase de pesquisa. Coletando informações, mas ainda não quer comprar.",
-      "prompt": "Oi Mel, estou pensando em treinar no futuro. O que vocês oferecem e como funciona o acompanhamento?"
-    },
-    {
-      "name": "Juliana",
-      "description": "Lead curioso. Quer saber mais sobre a comunidade e o suporte disponível.",
-      "prompt": "Oi! Como funciona essa comunidade no Telegram? E o suporte com nutricionista, é por chat mesmo?"
-    },
-    {
-      "name": "Diego",
-      "description": "Lead altamente interessado. Quer saber detalhes sobre o plano e formas de pagamento.",
-      "prompt": "E aí Mel! Tô super interessado no FitFlow. Quais os planos e como posso pagar?"
+      "name": "Rafael",
+      "description": "Lead com objeção de preço. Gostou da proposta, mas acha o valor alto.",
+      "prompt": "Oi, Mel! Oi, gostei do FitFlow, mas R$598,80 é meio caro, tem desconto?"
     },
     {
       "name": "Mariana",
-      "description": "Lead com objeção de preço. Compara com outras soluções mais baratas.",
-      "prompt": "Oi Mel, vi outras plataformas mais baratas. O que faz o FitFlow valer a pena?"
+      "description": "Lead desconfiado. Quer provas sociais e resultados antes de se decidir.",
+      "prompt": "Oi, Mel! Esse plano realmente funciona? Tem depoimentos de quem usou?"
+    },
+    {
+      "name": "Carlos",
+      "description": "Lead cliente atual. Está em dúvida sobre como renovar o plano.",
+      "prompt": "Oi, Mel! Meu plano tá acabando, como faço pra renovar? Tô gostando muito!"
+    },
+    {
+      "name": "Juliana",
+      "description": "Lead ocupado. Responde de forma curta e demora a voltar.",
+      "prompt": "Oi. Quais os planos? Tô pensando aqui."
+    },
+    {
+      "name": "Thiago",
+      "description": "Lead em fase de pesquisa. Quer saber as opções, mas não tem intenção de comprar agora.",
+      "prompt": "Oi, Mel! Tô só olhando. O que o FitFlow oferece exatamente?"
+    },
+    {
+      "name": "Fernanda",
+      "description": "Lead curioso. Quer saber mais sobre o chat com nutricionista.",
+      "prompt": "Oi! Como funciona o chat com o nutricionista? É ilimitado mesmo?"
+    },
+    {
+      "name": "Pedro",
+      "description": "Lead altamente interessado. Perguntou diretamente sobre preços e formas de pagamento.",
+      "prompt": "Oi, Mel! Quero começar agora. Quais são os preços e formas de pagamento?"
+    },
+    {
+      "name": "Isabela",
+      "description": "Lead desconfiada. Tem receio e pede garantias antes de decidir.",
+      "prompt": "Oi, Mel! E se eu não gostar do FitFlow? Tem garantia?"
     }
   ]
 }
