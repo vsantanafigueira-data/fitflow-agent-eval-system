@@ -4,9 +4,9 @@ Sistema para geração de clientes fictícios, simulação de conversas com um a
 
 O projeto implementa duas partes principais:
 
-Agent Tester — geração de clientes simulados e execução de conversas com o agente de vendas.
+Agent Tester — geração de clientes simulados e execução de conversas com o agente de vendas
 
-Conversation Judge — avaliação automática da qualidade das conversas geradas.
+Conversation Judge — avaliação automática da qualidade das conversas geradas
 
 O objetivo é criar um ambiente automatizado para testar e analisar o comportamento de um agente de vendas baseado em LLM.
 
@@ -26,7 +26,7 @@ src/
  │
  ├ eval/
  │   ├ judgeConversation.ts
-     ├ judgeSchema.ts   
+ │   ├ judgeSchema.ts
  │   └ runEvaluation.ts
  │
  ├ simulateConversation.ts
@@ -36,7 +36,6 @@ src/
 package.json
 tsconfig.json
 README.md
-
 Tecnologias Utilizadas
 
 TypeScript
@@ -73,8 +72,7 @@ description
 
 prompt
 
-Exemplo de estrutura gerada:
-
+Exemplo de estrutura gerada
 {
   "clients": [
     {
@@ -139,7 +137,7 @@ A conversa é executada com:
 
 mensagem inicial
 
-agente inicial (cliente ou vendedor)
+agente inicial (client ou seller)
 
 limite máximo de mensagens
 
@@ -151,7 +149,7 @@ src/runPipeline.ts
 
 Este script executa o fluxo completo de simulação.
 
-Fluxo do pipeline:
+Fluxo do pipeline
 
 Ler o prompt do agente de vendas (agent-prompt.md)
 
@@ -166,18 +164,13 @@ Parâmetros do Pipeline
 O pipeline aceita os seguintes parâmetros via CLI:
 
 node src/runPipeline.ts <clients> <maxMessages> <starter> <initialMessage>
-
-Parâmetros:
-
-clients → número de clientes fictícios a gerar
-
-maxMessages → número máximo de mensagens por conversa
-
-starter → quem inicia a conversa (client ou seller)
-
-initialMessage → mensagem inicial da conversa
-
-Valores padrão utilizados no código:
+Parâmetros
+Parâmetro	Descrição
+clients	número de clientes fictícios a gerar
+maxMessages	número máximo de mensagens por conversa
+starter	quem inicia a conversa (client ou seller)
+initialMessage	mensagem inicial da conversa
+Valores padrão
 
 clientes: 5
 
@@ -192,9 +185,7 @@ Output do Pipeline
 Após a execução, o pipeline gera:
 
 data/conversations.json
-
-Estrutura do output:
-
+Estrutura do output
 {
   "simulations": [
     {
@@ -289,8 +280,6 @@ Após a execução, os seguintes arquivos são criados:
 
 data/clients.json
 data/conversation.json
-
-
 Observações
 
 O sistema atual implementa:
