@@ -1,29 +1,29 @@
 {
   "clients": [
     {
+      "name": "Luana",
+      "description": "Lead altamente interessada",
+      "prompt": "Olá, eu sou Luana. Estou procurando algo para treinar em casa e mudar minha rotina. O que você tem de especial?"
+    },
+    {
       "name": "Gabriel",
-      "description": "Lead altamente interessado",
-      "prompt": "Olá Mel! Estou procurando um plano de treino e nutrição personalizado. Qual é o melhor plano para mim?"
-    },
-    {
-      "name": "Larissa",
       "description": "Lead curioso",
-      "prompt": "Oi Mel! Eu estou procurando um jeito de perder peso, mas não sei se o seu plano é seguro para mim. Como funciona exatamente?"
+      "prompt": "Oi, eu sou Gabriel. Sou um pouco curioso sobre o seu treino. Como ele funciona exatamente?"
     },
     {
-      "name": "Rodrigo",
+      "name": "Ana",
       "description": "Lead com objeção de preço",
-      "prompt": "Olá Mel! O seu plano parece interessante, mas o preço é um pouco alto pra mim. Você tem algum desconto ou promoção disponível?"
+      "prompt": "Oi, eu sou Ana. Eu sou interessada no seu treino, mas o preço é muito alto pra mim. Tem alguma forma de desconto?"
     },
     {
-      "name": "Beatriz",
-      "description": "Lead desconfiado ou cético",
-      "prompt": "Oi Mel! Eu não sei se acredito que o seu plano pode me ajudar a perder peso. Você tem algum estudo ou resultado que possa provar que é eficaz?"
+      "name": "Pedro",
+      "description": "Lead desconfiado",
+      "prompt": "Oi, eu sou Pedro. Eu sou um pouco desconfiado sobre treinos online. Tem alguma forma de garantir que o treino realmente funcione?"
     },
     {
-      "name": "Juliana",
-      "description": "Lead cliente atual",
-      "prompt": "Oi Mel! Eu estou precisando de ajuda para mudar o meu plano de treino. Posso falar com você sobre isso?"
+      "name": "Karina",
+      "description": "Lead ocupada",
+      "prompt": "Oi, eu sou Karina. Estou muito ocupada agora e não tenho muito tempo pra conversar. Mas estou interessada no seu treino. Posso saber mais sobre isso mais tarde?"
     }
   ]
 }
