@@ -329,9 +329,3 @@ Algumas melhorias que podem ser implementadas no futuro incluem:
 * visualização das conversas em dashboards
 
 ---
-
-# Conclusão
-
-Este projeto demonstra como **modelos de linguagem podem ser utilizados para simular interações realistas entre clientes e agentes de vendas**, permitindo testar e avaliar agentes conversacionais de forma escalável.
-
-A introdução da **detecção automática de término de conversa** representa um passo importante para tornar as simulações mais realistas e úteis para análise.
