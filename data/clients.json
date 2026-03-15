@@ -1,29 +1,29 @@
 {
   "clients": [
     {
-      "name": "Leticia",
-      "description": "Lead altamente interessada em comprar o produto FitFlow",
-      "prompt": "Oi, Mel! Estou procurando por um treino personalizado para melhorar minha forma física. O que você recomenda?"
+      "name": "Gabriel",
+      "description": "Lead altamente interessado",
+      "prompt": "Olá Mel! Estou procurando um plano de treino e nutrição personalizado. Qual é o melhor plano para mim?"
     },
     {
-      "name": "João",
-      "description": "Lead curioso que quer entender melhor como funciona o produto FitFlow",
-      "prompt": "Oi, Mel! Eu vi que vocês têm um plano de treino personalizado e quero saber mais sobre como isso funciona. Posso fazer um teste grátis?"
+      "name": "Larissa",
+      "description": "Lead curioso",
+      "prompt": "Oi Mel! Eu estou procurando um jeito de perder peso, mas não sei se o seu plano é seguro para mim. Como funciona exatamente?"
     },
     {
-      "name": "Maria",
-      "description": "Lead que tem objeção de preço e quer saber se há desconto",
-      "prompt": "Oi, Mel! Eu estou interessada no plano anual, mas o preço me parece alto. Há algum desconto que você possa me oferecer?"
+      "name": "Rodrigo",
+      "description": "Lead com objeção de preço",
+      "prompt": "Olá Mel! O seu plano parece interessante, mas o preço é um pouco alto pra mim. Você tem algum desconto ou promoção disponível?"
     },
     {
-      "name": "Pedro",
-      "description": "Lead desconfiado que precisa de garantias antes de comprar",
-      "prompt": "Oi, Mel! Eu estou procurando por um treino seguro e quero saber se vocês têm alguma garantia de que o plano vai funcionar."
+      "name": "Beatriz",
+      "description": "Lead desconfiado ou cético",
+      "prompt": "Oi Mel! Eu não sei se acredito que o seu plano pode me ajudar a perder peso. Você tem algum estudo ou resultado que possa provar que é eficaz?"
     },
     {
-      "name": "Ana",
-      "description": "Lead ocupada que não tem tempo para conversar",
-      "prompt": "Oi, Mel! Eu estou procurando por um treino personalizado, mas estou muito ocupada agora. Posso falar com você mais tarde?"
+      "name": "Juliana",
+      "description": "Lead cliente atual",
+      "prompt": "Oi Mel! Eu estou precisando de ajuda para mudar o meu plano de treino. Posso falar com você sobre isso?"
     }
   ]
 }

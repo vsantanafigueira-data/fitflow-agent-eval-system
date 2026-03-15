@@ -1,0 +1,49 @@
+{
+  "conversation": [
+    {
+      "role": "client",
+      "message": "Oi! Vi o anúncio de vocês e queria saber mais."
+    },
+    {
+      "role": "seller",
+      "message": "*Olá!* Prazer em conhecê-lo! Eu sou a Mel, assistente de vendas da FitFlow. Qual é o seu objetivo? Você está procurando por um plano de treino e nutrição para melhorar a forma ou há algum motivo específico que está te levando a procurar?"
+    },
+    {
+      "role": "client",
+      "message": "Eu sempre estive um pouco acima do peso e quero perder peso, mas também quero ganhar massa muscular."
+    },
+    {
+      "role": "seller",
+      "message": "Você está procurando por um plano que combine perda de peso e ganho de massa muscular. Isso é um desafio, mas também é um objetivo muito alcançável!\n\nA FitFlow tem uma grande experiência em ajudar pessoas a alcançar metas semelhantes. Nosso plano de treino e nutrição é personalizado com base em sua rotina, objetivos e restrições alimentares.\n\nVamos começar com o quiz de 5 minutos para entender melhor suas necessidades. Ele é rápido e fácil de fazer, e você vai ter"
+    },
+    {
+      "role": "client",
+      "message": "O quizz de 5 minutos parece rápido, mas o que acontece com o plano depois que eu fiz o quizz? Como vou saber que é o plano certo para mim?"
+    },
+    {
+      "role": "seller",
+      "message": "Depois que você faz o quiz, a nossa IA analisa as respostas e monta um plano de treino e nutrição personalizado para você. O plano é composto por:\n\n* Um plano de treino semanal com exercícios para a academia ou para fazer em casa\n* Um plano alimentar semanal com lista de compras e refeições sugeridas\n* Um reajuste automático a cada 2 semanas para que o plano continue adaptado às suas necessidades\n* Um chat com nutricionista disponível de segunda a sext"
+    },
+    {
+      "role": "client",
+      "message": "Uma IA que monta o plano? Isso me parece um pouco estranho... Você tem nutricionistas reais que eu posso conversar de verdade?"
+    },
+    {
+      "role": "seller",
+      "message": "Sim! A nossa IA é apenas uma ferramenta para ajudar a criar o plano inicial. Mas, sim, você terá acesso a um nutricionista real que pode ajudá-lo a ajustar o plano e responder às suas perguntas.\n\nNo chat com nutricionista, você pode perguntar sobre qualquer coisa relacionada ao seu plano, desde como fazer os exercícios até como seguir o plano alimentar. Nossa equipe de nutricionistas está disponível de segunda a sexta-feira, das 8h às 18h, para ajudá-lo"
+    },
+    {
+      "role": "client",
+      "message": "Entendi que a IA é apenas uma ferramenta para ajudar a criar o plano inicial. Mas posso ter certeza de que vou falar com um nutricionista real e não apenas com uma IA? E como posso saber que o nutricionista é bom?"
+    },
+    {
+      "role": "seller",
+      "message": "Sim, você terá certeza de que está falando com um nutricionista real! Nossa equipe de nutricionistas é composta por profissionais qualificados e experientes que estão sempre disponíveis para ajudar.\n\nSobre a qualificação dos nutricionistas, posso dizer que eles têm formação em nutrição e experiência em trabalhar com planos de treino e nutrição personalizados. Além disso, nossa equipe de nutricionistas é supervisionada por um coordenador de nutrição que é um profissional"
+    }
+  ],
+  "metadata": {
+    "totalMessages": 10,
+    "sellerMessages": 5,
+    "clientMessages": 5
+  }
+}
